@@ -1,0 +1,602 @@
+[
+    {
+        "id": 0,
+        "prompt": "The archipelago consists of $N \\geqslant 7$ islands. Any two islands are connected by no more than one bridge. It is known that no more than 5 bridges lead from each island and that among any 7 islands, there are always two that are connected by a bridge. What is the maximum possible value of $N$?",
+        "answer": "10",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 64,
+        "prompt": "Consider a triangle $DEF$ where the angles of the triangle satisfy\n\\[ \\cos 3D + \\cos 3E + \\cos 3F = 1. \\]\nTwo sides of this triangle have lengths 12 and 14. Find the maximum possible length of the third side.",
+        "answer": "2\\sqrt{85}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 128,
+        "prompt": "Given $F_{1}$ and $F_{2}$ are the foci of a pair of related curves, and $P$ is the intersection point of the ellipse and the hyperbola in the first quadrant, when $\\angle F_{1}PF_{2}=60^{\\circ}$, determine the eccentricity of the ellipse in this pair of related curves.",
+        "answer": "\\frac{\\sqrt{3}}{2}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 192,
+        "prompt": "Darryl has a six-sided die with faces  $1, 2, 3, 4, 5, 6$ . He knows the die is weighted so that one face\ncomes up with probability  $1/2$  and the other five faces have equal probability of coming up. He\nunfortunately does not know which side is weighted, but he knows each face is equally likely\nto be the weighted one. He rolls the die  $5$  times and gets a  $1, 2, 3, 4$  and  $5$  in some unspecified\norder. Compute the probability that his next roll is a  $6$ .",
+        "answer": "\\frac{1}{6}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 256,
+        "prompt": "A four-dimensional rectangular hyper-box has side lengths $W$, $X$, $Y$, and $Z$. It has \"faces\" (three-dimensional volumes) whose measures are $60$, $80$, $120$, $60$, $80$, $120$ cubic units. What is $W$ + $X$ + $Y$ + $Z$?\n**A)** 200\n**B)** 250\n**C)** 300\n**D)** 318.5\n**E)** 400",
+        "answer": "250",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 320,
+        "prompt": "Given the parametric equation of curve $C_{1}$ is $\\begin{cases} x=-2+2\\cos \\theta \\\\ y=2\\sin \\theta \\end{cases}$ (with $\\theta$ as the parameter), and establishing a coordinate system with the origin as the pole and the positive half-axis of $x$ as the polar axis, the polar equation of curve $C_{2}$ is $\\rho=4\\sin \\theta$.  \n(\u2160) Find the coordinates of the intersection points of curves $C_{1}$ and $C_{2}$.  \n(\u2161) Points $A$ and $B$ are on curves $C_{1}$ and $C_{2}$, respectively. When $|AB|$ is maximized, find the area of $\\triangle OAB$ (where $O$ is the origin).",
+        "answer": "4",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 384,
+        "prompt": "A recipe calls for $5 \\frac{3}{4}$ cups of flour and $2 \\frac{1}{2}$ cups of sugar. If you make one-third of the recipe, how many cups of flour and sugar do you need? Express your answers as mixed numbers.",
+        "answer": "1\\frac{11}{12}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 448,
+        "prompt": "Find $x$ such that $\\lceil x \\rceil \\cdot x = 210$. Express $x$ as a decimal.",
+        "answer": "14",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 512,
+        "prompt": "Points $A$, $B$, and $C$ form an isosceles triangle with $AB = AC$. Points $M$, $N$, and $O$ are the midpoints of sides $AB$, $BC$, and $CA$ respectively. Find the number of noncongruent triangles that can be drawn using any three of these six points as vertices.",
+        "answer": "4",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 576,
+        "prompt": "A large rectangle is partitioned into four rectangles by two segments parallel to its sides. The areas of three of the resulting rectangles are shown. What is the area of the fourth rectangle?",
+        "answer": "21",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 640,
+        "prompt": "$ S$ is a non-empty subset of the set $ \\{ 1, 2, \\cdots, 108 \\}$, satisfying:\r\n\r\n(1) For any two numbers $ a,b \\in S$ ( may not distinct), there exists $ c \\in S$, such that $ \\gcd(a,c)\\equal{}\\gcd(b,c)\\equal{}1$.\r\n\r\n(2) For any two numbers $ a,b \\in S$ ( may not distinct), there exists $ c' \\in S$, $ c' \\neq a$, $ c' \\neq b$, such that $ \\gcd(a, c') > 1$, $ \\gcd(b,c') >1$.\r\n\r\nFind the largest possible value of $ |S|$.",
+        "answer": "54",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 704,
+        "prompt": "Ten points are equally spaced on a circle. A graph is a set of segments (possibly empty) drawn between pairs of points, so that every two points are joined by either zero or one segments. Two graphs are considered the same if we can obtain one from the other by rearranging the points. Let $N$ denote the number of graphs with the property that for any two points, there exists a path from one to the other among the segments of the graph. Estimate the value of $N$. If your answer is a positive integer $A$, your score on this problem will be the larger of 0 and $\\lfloor 20-5|\\ln (A / N)|\\rfloor$. Otherwise, your score will be zero.",
+        "answer": "20",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 768,
+        "prompt": "Six soccer teams are competing in a tournament in Waterloo. Every team is to play three games, each against a different team. How many different schedules are possible?",
+        "answer": "15",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 832,
+        "prompt": "There are $N$ permutations $(a_{1}, a_{2}, ... , a_{30})$ of $1, 2, \\ldots, 30$ such that for $m \\in \\left\\{{2, 3, 5}\\right\\}$, $m$ divides $a_{n+m} - a_{n}$ for all integers $n$ with $1 \\leq n < n+m \\leq 30$. Find the remainder when $N$ is divided by $1000$.",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 896,
+        "prompt": "A positive unknown number less than 2022 was written on the board next to the number 2022. Then, one of the numbers on the board was replaced by their arithmetic mean. This replacement was done 9 more times, and the arithmetic mean was always an integer. Find the smaller of the numbers that were initially written on the board.",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 960,
+        "prompt": "The cubic polynomial $q(x)$ satisfies $q(1) = 5,$ $q(6) = 20,$ $q(14) = 12,$ and $q(19) = 30.$  Find\n\\[q(0) + q(1) + q(2) + \\dots + q(20).\\]",
+        "answer": "365",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 1024,
+        "prompt": "Positive real numbers \\( x, y, z \\) satisfy: \\( x^{4} + y^{4} + z^{4} = 1 \\). Find the minimum value of the algebraic expression \\( \\frac{x^{3}}{1-x^{8}} + \\frac{y^{3}}{1-y^{8}} + \\frac{z^{3}}{1-z^{8}} \\).",
+        "answer": "\\frac{3^{7/4}}{8}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 1088,
+        "prompt": "In a right triangle \\(ABC\\), the legs \\(AB\\) and \\(AC\\) measure 4 and 3 respectively. Point \\(D\\) bisects the hypotenuse \\(BC\\). Find the distance between the centers of the incircles of triangles \\(ADC\\) and \\(ABD\\).",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 1152,
+        "prompt": "In some cells of a \\(10 \\times 10\\) board, there are fleas. Every minute, the fleas jump simultaneously to an adjacent cell (along the sides). Each flea jumps strictly in one of the four directions parallel to the sides of the board, maintaining its direction as long as possible; otherwise, it changes to the opposite direction. Dog Barbos observed the fleas for an hour and never saw two of them on the same cell. What is the maximum number of fleas that could be jumping on the board?",
+        "answer": "100",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 1216,
+        "prompt": "Given that $\\overrightarrow{OA}=(-2,4)$, $\\overrightarrow{OB}=(-a,2)$, $\\overrightarrow{OC}=(b,0)$, $a > 0$, $b > 0$, and $O$ is the coordinate origin. If points $A$, $B$, and $C$ are collinear, find the minimum value of $\\frac{1}{a}+\\frac{1}{b}$.",
+        "answer": "\\frac{3}{2}+\\sqrt{2}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 1280,
+        "prompt": "\nA shape was cut out from a regular hexagon as shown in the picture. The marked points on both the perimeter and inside the hexagon divide the respective line segments into quarters.\n\nWhat is the ratio of the areas of the original hexagon to the cut-out shape?",
+        "answer": "4",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 1344,
+        "prompt": "Given \\\\(a, b, c > 0\\\\), the minimum value of \\\\(\\frac{a^{2} + b^{2} + c^{2}}{ab + 2bc}\\\\) is \\_\\_\\_\\_\\_\\_.",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 1408,
+        "prompt": "Mr. Fast eats a pizza slice in 5 minutes, Mr. Slow eats a pizza slice in 10 minutes, and Mr. Steady eats a pizza slice in 8 minutes. How long does it take for them to eat 24 pizza slices together? Express your answer in minutes.",
+        "answer": "24",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 1472,
+        "prompt": "In triangle $ABC$, if $\\sin^{2}A + \\sin^{2}B = \\sin^{2}C - \\sqrt{2}\\sin A\\sin B$, find the maximum value of $\\sin 2A\\tan^{2}B$.",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 1536,
+        "prompt": "Given the ellipse $\\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1$ $(a > b > 0)$, let the left and right foci of the ellipse be $F_1$ and $F_2$, respectively. The line passing through $F_1$ and perpendicular to the x-axis intersects the ellipse at points $A$ and $B$. If the line $AF_2$ intersects the ellipse at another point $C$, and the area of triangle $\\triangle ABC$ is three times the area of triangle $\\triangle BCF_2$, determine the eccentricity of the ellipse.",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 1600,
+        "prompt": "How many of the numbers from the set $\\{1, 2, 3, \\ldots, 100\\}$ have a perfect square factor other than one?",
+        "answer": "39",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 1664,
+        "prompt": "Xiao Ming's home is 30 minutes away from school by subway and 50 minutes by bus. One day, Xiao Ming took the subway first and then transferred to the bus, taking a total of 40 minutes to reach school, with the transfer process taking 6 minutes. How many minutes did Xiao Ming take the bus that day?",
+        "answer": "4",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 1728,
+        "prompt": "How many positive odd integers greater than 1 and less than 200 are square-free?",
+        "answer": "80",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 1792,
+        "prompt": "Except for the first two terms, each term of the sequence $2000, y, 2000 - y,\\ldots$ is obtained by subtracting the preceding term from the one before that. The last term of the sequence is the first negative term encountered. What positive integer $y$ produces a sequence of maximum length?",
+        "answer": "1343",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 1856,
+        "prompt": "Consider all angles measured in degrees. Calculate the product $\\prod_{k=1}^{22} \\csc^2(4k-3)^\\circ = m^n$, where $m$ and $n$ are integers greater than 1. Find the value of $m+n$.",
+        "answer": "24",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 1920,
+        "prompt": "The distances from point \\( P \\), which lies inside an equilateral triangle, to its vertices are 3, 4, and 5. Find the area of the triangle.",
+        "answer": "6\\sqrt{3}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 1984,
+        "prompt": "Find the projection of the vector $\\begin{pmatrix} 3 \\\\ 0 \\\\ -2 \\end{pmatrix}$ onto the line\n\\[\\frac{x}{2} = y = \\frac{z}{-1}.\\]",
+        "answer": "\\begin{pmatrix}\\frac{8}{3}\\\\\\frac{4}{3}\\\\-\\frac{4}{3}\\end{pmatrix}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 2048,
+        "prompt": "Let $a, a', b,$ and $b'$ be real numbers with $a$ and $a'$ nonzero. The solution to $ax+b=0$ is less than the solution to $a'x+b'=0$ if and only if",
+        "answer": "\\frac{b'}{'}<\\frac{b}{}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 2112,
+        "prompt": "Four boys bought a boat for $60. The first boy paid one half of the sum of the amounts paid by the other boys; the second boy paid one third of the sum of the amounts paid by the other boys; and the third boy paid one fourth of the sum of the amounts paid by the other boys. How much did the fourth boy pay?",
+        "answer": "13",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 2176,
+        "prompt": "All of the triangles in the diagram below are similar to isosceles triangle $ABC$, in which $AB=AC$. Each of the $7$ smallest triangles has area $1,$ and $\\triangle ABC$ has area $40$. What is the area of trapezoid $DBCE$?",
+        "answer": "33",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 2240,
+        "prompt": "Cars A and B travel the same distance. Car A travels half that distance at $u$ miles per hour and half at $v$ miles per hour. Car B travels half the time at $u$ miles per hour and half at $v$ miles per hour. The average speed of Car A is $x$ miles per hour and that of Car B is $y$ miles per hour. Then we always have",
+        "answer": "x\\ley",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 2304,
+        "prompt": "For natural numbers, when $P$ is divided by $D$, the quotient is $Q$ and the remainder is $R$. When $Q$ is divided by $D'$, the quotient is $Q'$ and the remainder is $R'$. Then, when $P$ is divided by $DD'$, the remainder is:",
+        "answer": "R+R'D",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 2368,
+        "prompt": "If $r_1$ and $r_2$ are the distinct real roots of $x^2+px+8=0$, then it must follow that:",
+        "answer": "B",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 2432,
+        "prompt": "Mr. Garcia asked the members of his health class how many days last week they exercised for at least 30 minutes.  The results are summarized in the following bar graph, where the heights of the bars represent the number of students.\n\nWhat was the mean number of days of exercise last week, rounded to the nearest hundredth, reported by the students in Mr. Garcia's class?",
+        "answer": "3",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 2496,
+        "prompt": "If circular arcs $AC$ and $BC$ have centers at $B$ and $A$, respectively, then there exists a circle tangent to both $\\overarc {AC}$ and $\\overarc{BC}$, and to $\\overline{AB}$. If the length of $\\overarc{BC}$ is $12$, then the circumference of the circle is",
+        "answer": "24\\pi",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 2560,
+        "prompt": "A $5 \\times 5$ table is called regular if each of its cells contains one of four pairwise distinct real numbers, such that each of them occurs exactly once in every $2 \\times 2$ subtable.The sum of all numbers of a regular table is called the total sum of the table. With any four numbers, one constructs all possible regular tables, computes their total sums, and counts the distinct outcomes. Determine the maximum possible count.",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 2624,
+        "prompt": "A polynomial $f \\in \\mathbb{Z}[x]$ is called splitty if and only if for every prime $p$, there exist polynomials $g_{p}, h_{p} \\in \\mathbb{Z}[x]$ with $\\operatorname{deg} g_{p}, \\operatorname{deg} h_{p}<\\operatorname{deg} f$ and all coefficients of $f-g_{p} h_{p}$ are divisible by $p$. Compute the sum of all positive integers $n \\leq 100$ such that the polynomial $x^{4}+16 x^{2}+n$ is splitty.",
+        "answer": "385",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 2688,
+        "prompt": "Tessa picks three real numbers $x, y, z$ and computes the values of the eight expressions of the form $\\pm x \\pm y \\pm z$. She notices that the eight values are all distinct, so she writes the expressions down in increasing order. How many possible orders are there?",
+        "answer": "40320",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 2752,
+        "prompt": "Find the sum of squares of all distinct complex numbers $x$ satisfying the equation $0=4 x^{10}-7 x^{9}+5 x^{8}-8 x^{7}+12 x^{6}-12 x^{5}+12 x^{4}-8 x^{3}+5 x^{2}-7 x+4$",
+        "answer": "\\frac{9}{16}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 2816,
+        "prompt": "Count how many 8-digit numbers there are that contain exactly four nines as digits.",
+        "answer": "8",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 2880,
+        "prompt": "Let $\\mathbb{R}$ be the set of real numbers. Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be a function such that for all real numbers $x$ and $y$, we have $$f\\left(x^{2}\\right)+f\\left(y^{2}\\right)=f(x+y)^{2}-2 x y$$ Let $S=\\sum_{n=-2019}^{2019} f(n)$. Determine the number of possible values of $S$.",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 2944,
+        "prompt": "Calvin has a bag containing 50 red balls, 50 blue balls, and 30 yellow balls. Given that after pulling out 65 balls at random (without replacement), he has pulled out 5 more red balls than blue balls, what is the probability that the next ball he pulls out is red?",
+        "answer": "\\frac{4}{13}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 3008,
+        "prompt": "Let $N$ be the number of triples of positive integers $(a, b, c)$ satisfying $a \\leq b \\leq c, \\quad \\operatorname{gcd}(a, b, c)=1, \\quad a b c=6^{2020}$. Compute the remainder when $N$ is divided by 1000.",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 3072,
+        "prompt": "Let $S$ be a set of positive integers satisfying the following two conditions: - For each positive integer $n$, at least one of $n, 2 n, \\ldots, 100 n$ is in $S$. - If $a_{1}, a_{2}, b_{1}, b_{2}$ are positive integers such that $\\operatorname{gcd}\\left(a_{1} a_{2}, b_{1} b_{2}\\right)=1$ and $a_{1} b_{1}, a_{2} b_{2} \\in S$, then $a_{2} b_{1}, a_{1} b_{2} \\in S$ Suppose that $S$ has natural density $r$. Compute the minimum possible value of $\\left\\lfloor 10^{5} r\\right\\rfloor$. Note: $S$ has natural density $r$ if $\\frac{1}{n}|S \\cap\\{1, \\ldots, n\\}|$ approaches $r$ as $n$ approaches $\\infty$.",
+        "answer": "1000",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 3136,
+        "prompt": "Let $N$ be a positive integer whose decimal representation contains 11235 as a contiguous substring, and let $k$ be a positive integer such that $10^{k}>N$. Find the minimum possible value of $$ \\frac{10^{k}-1}{\\operatorname{gcd}\\left(N, 10^{k}-1\\right)} $$",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 3200,
+        "prompt": "How many ways can you remove one tile from a $2014 \\times 2014$ grid such that the resulting figure can be tiled by $1 \\times 3$ and $3 \\times 1$ rectangles?",
+        "answer": "4056196",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 3264,
+        "prompt": "Let \\omega=\\cos \\frac{2 \\pi}{727}+i \\sin \\frac{2 \\pi}{727}$. The imaginary part of the complex number $$\\prod_{k=8}^{13}\\left(1+\\omega^{3^{k-1}}+\\omega^{2 \\cdot 3^{k-1}}\\right)$$ is equal to $\\sin \\alpha$ for some angle $\\alpha$ between $-\\frac{\\pi}{2}$ and $\\frac{\\pi}{2}$, inclusive. Find $\\alpha$.",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 3328,
+        "prompt": "Let $a, b$, and $c$ be real numbers. Consider the system of simultaneous equations in variables $x$ and $y:$ $a x+b y =c-1$ and $(a+5) x+(b+3) y =c+1$. Determine the value(s) of $c$ in terms of $a$ such that the system always has a solution for any $a$ and $b$.",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 3392,
+        "prompt": "Pick a random integer between 0 and 4095, inclusive. Write it in base 2 (without any leading zeroes). What is the expected number of consecutive digits that are not the same (that is, the expected number of occurrences of either 01 or 10 in the base 2 representation)?",
+        "answer": "5.5",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 3456,
+        "prompt": "A triangle with side lengths $5,7,8$ is inscribed in a circle $C$. The diameters of $C$ parallel to the sides of lengths 5 and 8 divide $C$ into four sectors. What is the area of either of the two smaller ones?",
+        "answer": "\\frac{49\\pi}{12}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 3520,
+        "prompt": "A set consists of five different odd positive integers, each greater than 2. When these five integers are multiplied together, their product is a five-digit integer of the form $AB0AB$, where $A$ and $B$ are digits with $A \\neq 0$ and $A \\neq B$. (The hundreds digit of the product is zero.) For example, the integers in the set $\\{3,5,7,13,33\\}$ have a product of 45045. In total, how many different sets of five different odd positive integers have these properties?",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 3584,
+        "prompt": "On the number line, points $M$ and $N$ divide $L P$ into three equal parts. What is the value at $M$?",
+        "answer": "\\frac{10}{3}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 3648,
+        "prompt": "Radford and Peter ran a race, during which they both ran at a constant speed. Radford began the race 30 m ahead of Peter. After 3 minutes, Peter was 18 m ahead of Radford. Peter won the race exactly 7 minutes after it began. How far from the finish line was Radford when Peter won?",
+        "answer": "42",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 3712,
+        "prompt": "Alice drew a regular $2021$-gon in the plane. Bob then labeled each vertex of the $2021$-gon with a real number, in such a way that the labels of consecutive vertices differ by at most $1$. Then, for every pair of non-consecutive vertices whose labels differ by at most $1$, Alice drew a diagonal connecting them. Let $d$ be the number of diagonals Alice drew. Find the least possible value that $d$ can obtain.",
+        "answer": "1010",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 3776,
+        "prompt": "Petya bought one cake, two cupcakes and three bagels, Apya bought three cakes and a bagel, and Kolya bought six cupcakes. They all paid the same amount of money for purchases. Lena bought two cakes and two bagels. And how many cupcakes could be bought for the same amount spent to her?",
+        "answer": "5",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 3840,
+        "prompt": "Let $ n$ and $ k$ be positive integers such that $ \\frac{1}{2} n < k \\leq \\frac{2}{3} n.$ Find the least number $ m$ for which it is possible to place $ m$ pawns on $ m$ squares of an $ n \\times n$ chessboard so that no column or row contains a block of $ k$ adjacent unoccupied squares.",
+        "answer": "n",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 3904,
+        "prompt": "In triangle $ABC$, $AB=\\sqrt{30}$, $AC=\\sqrt{6}$, and $BC=\\sqrt{15}$. There is a point $D$ for which $\\overline{AD}$ bisects $\\overline{BC}$, and $\\angle ADB$ is a right angle. The ratio $\\frac{[ADB]}{[ABC]}$ can be written in the form $\\dfrac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m+n$.",
+        "answer": "3",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 3968,
+        "prompt": "A square piece of paper has sides of length $100$. From each corner a wedge is cut in the following manner: at each corner, the two cuts for the wedge each start at a distance $\\sqrt{17}$ from the corner, and they meet on the diagonal at an angle of $60^{\\circ}$ (see the figure below). The paper is then folded up along the lines joining the vertices of adjacent cuts. When the two edges of a cut meet, they are taped together. The result is a paper tray whose sides are not at right angles to the base. The height of the tray, that is, the perpendicular distance between the plane of the base and the plane formed by the upped edges, can be written in the form $\\sqrt[n]{m}$, where $m$ and $n$ are positive integers, $m<1000$, and $m$ is not divisible by the $n$th power of any prime. Find $m+n$.\n[asy]import cse5; size(200); pathpen=black; real s=sqrt(17); real r=(sqrt(51)+s)/sqrt(2); D((0,2*s)--(0,0)--(2*s,0)); D((0,s)--r*dir(45)--(s,0)); D((0,0)--r*dir(45)); D((r*dir(45).x,2*s)--r*dir(45)--(2*s,r*dir(45).y)); MP(\"30^\\circ\",r*dir(45)-(0.25,1),SW); MP(\"30^\\circ\",r*dir(45)-(1,0.5),SW); MP(\"\\sqrt{17}\",(0,s/2),W); MP(\"\\sqrt{17}\",(s/2,0),S); MP(\"\\mathrm{cut}\",((0,s)+r*dir(45))/2,N); MP(\"\\mathrm{cut}\",((s,0)+r*dir(45))/2,E); MP(\"\\mathrm{fold}\",(r*dir(45).x,s+r/2*dir(45).y),E); MP(\"\\mathrm{fold}\",(s+r/2*dir(45).x,r*dir(45).y));[/asy]",
+        "answer": "20",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 4032,
+        "prompt": "David found four sticks of different lengths that can be used to form three non-congruent convex cyclic quadrilaterals, $A,\\text{ }B,\\text{ }C$, which can each be inscribed in a circle with radius $1$. Let $\\varphi_A$ denote the measure of the acute angle made by the diagonals of quadrilateral $A$, and define $\\varphi_B$ and $\\varphi_C$ similarly. Suppose that $\\sin\\varphi_A=\\frac{2}{3}$, $\\sin\\varphi_B=\\frac{3}{5}$, and $\\sin\\varphi_C=\\frac{6}{7}$. All three quadrilaterals have the same area $K$, which can be written in the form $\\dfrac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m+n$.",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 4096,
+        "prompt": "Determine the area of a triangle with side lengths 7, 7, and 5.",
+        "answer": "4",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 4160,
+        "prompt": "\nCompute the definite integral:\n\n$$\n\\int_{0}^{2 \\operatorname{arctg} \\frac{1}{2}} \\frac{(1-\\sin x) dx}{\\cos x(1+\\cos x)}\n$$",
+        "answer": "5",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 4224,
+        "prompt": "Given the sequence \\\\(\\{a_n\\}\\) satisfies \\\\(a_{n+1}= \\dfrac {2016a_n}{2014a_n+2016}(n\\in N_+)\\), and \\\\(a_1=1\\), find \\\\(a_{2017}= \\) ______.",
+        "answer": "\\frac{1}{2017}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 4288,
+        "prompt": "A high school is holding a speech contest with 10 participants. There are 3 students from Class 1, 2 students from Class 2, and 5 students from other classes. Using a draw to determine the speaking order, what is the probability that the 3 students from Class 1 are placed consecutively (in consecutive speaking slots) and the 2 students from Class 2 are not placed consecutively?",
+        "answer": "\\frac{1}{20}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 4352,
+        "prompt": "Given the function $f(x)=e^{x}$, for real numbers $m$, $n$, $p$, it is known that $f(m+n)=f(m)+f(n)$ and $f(m+n+p)=f(m)+f(n)+f(p)$. Determine the maximum value of $p$.",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 4416,
+        "prompt": "Express $0.3\\overline{206}$ as a common fraction.",
+        "answer": "\\frac{3203}{9990}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 4480,
+        "prompt": "A hexagon inscribed in a circle has three consecutive sides, each of length 4, and three consecutive sides, each of length 7. The chord of the circle that divides the hexagon into two trapezoids, one with three sides each of length 4, and the other with three sides each of length 7, has length equal to $p/q$, where $p$ and $q$ are relatively prime positive integers. Find $p + q$.",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 4544,
+        "prompt": "Let $g : \\mathbb{R} \\to \\mathbb{R}$ be a function such that\n\\[g(x) g(y) - g(xy) = 2x + 2y\\]for all real numbers $x$ and $y.$\n\nCalculate the number $n$ of possible values of $g(2),$ and the sum $s$ of all possible values of $g(2),$ and find the product $n \\times s.$",
+        "answer": "5",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 4608,
+        "prompt": "The product of the positive integer divisors of a positive integer \\( n \\) is 1024, and \\( n \\) is a perfect power of a prime. Find \\( n \\).",
+        "answer": "16",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 4672,
+        "prompt": "If \\( x, \\) \\( y, \\) and \\( k \\) are positive real numbers such that \n\\[\n4 = k^2\\left(\\frac{x^2}{y^2}+\\frac{y^2}{x^2}\\right)+k\\left(\\frac{x}{y}+\\frac{y}{x}\\right),\n\\]\nfind the maximum possible value of \\( k \\).",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 4736,
+        "prompt": "Positive integers $a$, $b$, $c$, and $d$ are such that $a<b<c<d$, and the system of equations \n\\[ 2x + y = 2007 \\quad\\text{and}\\quad y = |x-a| + |x-b| + |x-c| + |x-d| \\]\nhas exactly one solution. What is the minimum value of $d$?",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 4800,
+        "prompt": "What is the coefficient of $x^4$ when \n$$x^5 - 4x^4 + 6x^3 - 7x^2 + 2x - 1$$ \nis multiplied by \n$$3x^4 - 2x^3 + 5x - 8$$ \nand combining the similar terms?",
+        "answer": "62",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 4864,
+        "prompt": "The center of a semicircle, inscribed in a right triangle such that its diameter lies on the hypotenuse, divides the hypotenuse into segments of 30 and 40. Find the length of the arc of the semicircle that is enclosed between the points where it touches the legs.",
+        "answer": "35\\pi",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 4928,
+        "prompt": "Five points are chosen on a sphere of radius 1. What is the maximum possible volume of their convex hull?",
+        "answer": "\\frac{8\\sqrt{3}}{27}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 4992,
+        "prompt": "The height \\( PO \\) of the regular quadrilateral pyramid \\( PABC D \\) is 4, and the side of the base \\( ABCD \\) is 6. Points \\( M \\) and \\( K \\) are the midpoints of segments \\( BC \\) and \\( CD \\). Find the radius of the sphere inscribed in the pyramid \\( PMKC \\).",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 5056,
+        "prompt": "The probability of inducing cerebrovascular disease by smoking 5 cigarettes in one hour is 0.02, and the probability of inducing cerebrovascular disease by smoking 10 cigarettes in one hour is 0.16. An employee of a certain company smoked 5 cigarettes in one hour without inducing cerebrovascular disease. Calculate the probability that he can continue to smoke 5 cigarettes without inducing cerebrovascular disease in that hour.",
+        "answer": "0.98",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 5120,
+        "prompt": "The teacher asked the students to calculate \\(\\overline{AB} . C + D . E\\). Xiao Hu accidentally missed the decimal point in \\(D . E\\), getting an incorrect result of 39.6; while Da Hu mistakenly saw the addition sign as a multiplication sign, getting an incorrect result of 36.9. What should the correct calculation result be?",
+        "answer": "39.6",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 5184,
+        "prompt": "Determine the area enclosed by the parabola $y = x^{2} - 5x + 6$ and the coordinate axes (and adjacent to both axes).",
+        "answer": "\\frac{1}{6}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 5248,
+        "prompt": "Given that the function $f(x)=\\sin (\u03c9x+\u03c6)(\u03c9 > 0,0 < \u03c6 < \u03c0)$ has a distance of $\\frac {\u03c0}{2}$ between adjacent symmetry axes, and the function $y=f(x+ \\frac {\u03c0}{2})$ is an even function.\n1. Find the analytical expression of $f(x)$.\n2. If $\u03b1$ is an acute angle, and $f(\\frac {\u03b1}{2}+ \\frac {\u03c0}{12})= \\frac {3}{5}$, find the value of $\\sin 2\u03b1$.",
+        "answer": "\\frac{24}{25}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 5312,
+        "prompt": "How many license plates can be made if they consist of 3 letters followed by 2 digits, where the first digit must be odd, the second digit must be even, and the first letter must be a vowel?",
+        "answer": "84500",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 5376,
+        "prompt": "From a standard deck of 52 cards, what is the probability that the top four cards include only cards from the black suits ($\\spadesuit$ and $\\clubsuit$)?",
+        "answer": "\\frac{5}{83}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 5440,
+        "prompt": "A right circular cone has base of radius 1 and height 3.  A cube is inscribed in the cone so that one face of the cube is contained in the base of the cone.  What is the side-length of the cube?",
+        "answer": "\\frac{3}{4}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 5504,
+        "prompt": "Let  $a_n$  denote the angle opposite to the side of length  $4n^2$  units in an integer right angled triangle with lengths of sides of the triangle being  $4n^2, 4n^4+1$  and  $4n^4-1$  where  $n \\in N$ . Then find the value of  $\\lim_{p \\to \\infty} \\sum_{n=1}^p a_n$",
+        "answer": "\\frac{\\pi}{2}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 5568,
+        "prompt": "Five glass bottles can be recycled to make a new bottle. Additionally, for every 20 new bottles created, a bonus bottle can be made from residual materials. Starting with 625 glass bottles, how many total new bottles can eventually be made from recycling and bonuses? (Keep counting recycled and bonus bottles until no further bottles can be manufactured. Do not include the original 625 bottles in your count.)",
+        "answer": "187",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 5632,
+        "prompt": "If the integers $m,n,k$ hold the equation $221m+247n+323k=2001$, find the smallest possible value of $k$ greater than 100.",
+        "answer": "101",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 5696,
+        "prompt": "Let \\( N = 34 \\times 34 \\times 63 \\times 270 \\). The ratio of the sum of all odd factors of \\( N \\) to the sum of all even factors of \\( N \\) is ( ).",
+        "answer": "1:15",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 5760,
+        "prompt": "Given the function $f(x)=|2x-a|+|x+ \\frac {2}{a}|$  \n$(1)$ When $a=2$, solve the inequality $f(x)\\geqslant 1$;  \n$(2)$ Find the minimum value of the function $g(x)=f(x)+f(-x)$.",
+        "answer": "4",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 5824,
+        "prompt": "Let $f(x) = 4x - 9$ and $g(f(x)) = x^2 + 6x - 7$. Find $g(-8)$.",
+        "answer": "-\\frac{87}{16}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 5888,
+        "prompt": "What integer $n$ satisfies $0 \\leq n < 151$ and $$100n \\equiv 93 \\pmod {151}~?$$",
+        "answer": "29",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 5952,
+        "prompt": "In triangle ABC, let the lengths of the sides opposite to angles A, B, and C be a, b, and c respectively, and b = 3, c = 1, A = 2B. Find the value of a.",
+        "answer": "2\\sqrt{3}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 6016,
+        "prompt": "The sum of Alice's weight and Clara's weight is 220 pounds. If you subtract Alice's weight from Clara's weight, you get one-third of Clara's weight. How many pounds does Clara weigh?",
+        "answer": "132",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 6080,
+        "prompt": "What is the smallest positive integer $n$ such that $\\frac{1}{n}$ is a terminating decimal and $n$ contains the digit '3'?",
+        "answer": "3",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 6144,
+        "prompt": "Point $P$ is inside right triangle $\\triangle ABC$ with $\\angle B = 90^\\circ$. Points $Q$, $R$, and $S$ are the feet of the perpendiculars from $P$ to $\\overline{AB}$, $\\overline{BC}$, and $\\overline{CA}$, respectively. Given that $PQ = 2$, $PR = 3$, and $PS = 4$, what is $BC$?",
+        "answer": "5",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 6208,
+        "prompt": "There are 7 cylindrical logs with a diameter of 5 decimeters each. They are tied together at two places using a rope. How many decimeters of rope are needed at least (excluding the rope length at the knots, and using $\\pi$ as 3.14)?",
+        "answer": "94.2",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 6272,
+        "prompt": "What is the nearest integer to $(3 + 2)^6$?",
+        "answer": "15625",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    },
+    {
+        "id": 6336,
+        "prompt": "On eight cards, the numbers $1, 1, 2, 2, 3, 3, 4, 4$ are written. Is it possible to arrange these cards in a row such that there is exactly one card between the ones, two cards between the twos, three cards between the threes, and four cards between the fours?",
+        "answer": "No",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_1.5b"
+    }
+]

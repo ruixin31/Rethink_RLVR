@@ -1,0 +1,602 @@
+[
+    {
+        "id": 3456,
+        "prompt": "In an organization with 200 employees, those over the age of 50 account for 20%, those aged 40-50 make up 30%, and those under 40 account for 50%. If 40 employees are to be sampled, and the systematic sampling method is used\u2014where all employees are randomly numbered 1-200 and evenly divided into 40 groups (numbers 1-5, 6-10, ..., 196-200)\u2014and if the number 22 is drawn from the 5th group, then the number drawn from the 8th group would be \u2460. If stratified sampling is employed, then the number of individuals to be drawn from the under-40 age group would be \u2461. The correct data for \u2460 and \u2461 are respectively ( ).",
+        "answer": "37,10",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 7488,
+        "prompt": "Calculate the value of the expression \\( \\sqrt{\\frac{16^{12} + 8^{15}}{16^5 + 8^{16}}} \\).",
+        "answer": "\\frac{3}{4}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 7936,
+        "prompt": "Given the table showing the weekly reading times of $30$ students, with $7$ students reading $6$ hours, $8$ students reading $7$ hours, $5$ students reading $8$ hours, and $10$ students reading $9$ hours, find the median of the weekly reading times for these $30$ students.",
+        "answer": "7",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 714,
+        "prompt": "The reciprocal of $\\left( \\frac{1}{2}+\\frac{1}{3}\\right)$ is",
+        "answer": "5",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 1930,
+        "prompt": "Three faces of a rectangular box meet at a corner, and the centers of these faces form the vertices of a triangle with side lengths of 4 cm, 5 cm, and 6 cm. What is the volume of the box, in cm^3?",
+        "answer": "3",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 2250,
+        "prompt": "The result of the addition shown is\n\n```\n  300\n 2020\n+10001\n```",
+        "answer": "",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 2634,
+        "prompt": "A classroom has 9 desks arranged in a row. Two students, Alex and Jessie, choose their desks at random. What is the probability that they do not sit next to each other?",
+        "answer": "\\frac{5}{9}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 2826,
+        "prompt": "A square has sides of length 8, and a circle centered at one of its vertices has a radius of 12. What is the area of the union of the regions enclosed by the square and the circle? Express your answer in terms of $\\pi$.",
+        "answer": "64+144\\pi",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 5834,
+        "prompt": "Points A and B lie on a circle centered at O, and \u2220AOB = 60\u00b0. A second circle is internally tangent to the first and tangent to both OA and OB. What is the ratio of the area of the smaller circle to that of the larger circle?",
+        "answer": "4",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 6410,
+        "prompt": "The cube below has sides of length 5 feet. If a cylindrical section of radius 1 foot is removed from the solid at an angle of $45^\\circ$ to the top face, what is the total remaining volume of the cube? Express your answer in cubic feet in terms of $\\pi$.",
+        "answer": "125-5\\pi",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 6666,
+        "prompt": "Compute the maximum number of sides of a polygon that is the cross-section of a regular hexagonal prism.",
+        "answer": "12",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 7626,
+        "prompt": "Two people are playing a game. One person thinks of a ten-digit number, and the other can ask questions about which digits are in specific sets of positions in the number's sequence. The first person answers the questions without indicating which digits are in which exact positions. What is the minimum number of questions needed to reliably guess the number?",
+        "answer": "34",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 4107,
+        "prompt": "Randy drove the first third of his trip on a gravel road, the next $20$ miles on pavement, and the remaining one-fifth on a dirt road. In miles how long was Randy's trip?",
+        "answer": "60",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 4683,
+        "prompt": "Let $a<b<c$ be three integers such that $a,b,c$ is an arithmetic progression and $a,c,b$ is a geometric progression. What is the smallest possible value of $c$?",
+        "answer": "8",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 6219,
+        "prompt": "I have two 10-sided dice where each die has 3 gold sides, 4 silver sides, 2 diamond sides, and 1 rainbow side. If I roll both dice, what is the probability that they come up showing the same color or pattern?",
+        "answer": "10",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 6283,
+        "prompt": "A box contains 2 red marbles, 2 green marbles, and 2 yellow marbles. Carol takes 2 marbles from the box at random; then Claudia takes 2 of the remaining marbles at random; and then Cheryl takes the last 2 marbles. What is the probability that Cheryl gets 2 marbles of the same color?",
+        "answer": "5",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 6667,
+        "prompt": "For how many integers $a$ with $1 \\leq a \\leq 10$ is $a^{2014}+a^{2015}$ divisible by 5?",
+        "answer": "5",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 6795,
+        "prompt": "The expression \\( 29 \\cdot 13 \\) is a product of two integers greater than 1. When this product is divided by any integer \\( k \\) where \\( 2 \\leqslant k \\leqslant 11 \\), the remainder is 1. What is the difference between the two smallest such integers?\n\n(29th Annual American High School Mathematics Examination, 1978)",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 7883,
+        "prompt": "(6?3) + 4 - (2 - 1) = 5. To make this statement true, the question mark between the 6 and the 3 should be replaced by",
+        "answer": "5",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 1804,
+        "prompt": "The area of a circle is \\( 64\\pi \\) square units. Calculate both the radius and the circumference of the circle.",
+        "answer": "16",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 3020,
+        "prompt": "The graph of the function $y=\\sin (2x+\\varphi) (0 < \\varphi < \\pi)$ is shifted to the right by $\\frac{\\pi}{8}$ and then is symmetric about the $y$-axis. Determine the possible value(s) of $\\varphi$.",
+        "answer": "\\frac{\\pi}{4}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 7756,
+        "prompt": "Given sets $A=\\{x,\\frac{y}{x},1\\}$ and $B=\\{{x}^{2},x+y,0\\}$, if $A=B$, then $x^{2023}+y^{2024}=\\_\\_\\_\\_\\_\\_.$",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 7820,
+        "prompt": "A bag contains 20 candies: 4 chocolate, 6 mint, and 10 butterscotch. Candies are removed randomly from the bag and eaten. What is the minimum number of candies that must be removed to be certain that at least two candies of each flavor have been eaten?",
+        "answer": "16",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 4621,
+        "prompt": "Add $36_7 + 274_7.$ Express your answer in base 7.",
+        "answer": "333_7",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 4813,
+        "prompt": "The sum of the numbers 300, 2020, and 10001 is",
+        "answer": "13321",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 6605,
+        "prompt": "Chandra now has five bowls and five glasses, and each expands to a new set of colors: red, blue, yellow, green, and purple. However, she dislikes pairing the same colors; thus, a bowl and glass of the same color cannot be paired together like a red bowl with a red glass. How many acceptable combinations can Chandra make when choosing a bowl and a glass?",
+        "answer": "20",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 7181,
+        "prompt": "The circumcircle of acute $\\triangle ABC$ has center $O$. The line passing through point $O$ perpendicular to $\\overline{OB}$ intersects lines $AB$ and $BC$ and $P$ and $Q$, respectively. Also $AB=5$, $BC=4$, $BQ=4.5$, and $BP=\\frac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m+n$.\nDiagram\n[asy] unitsize(30); draw(Circle((0,0),3)); pair A,B,C,O, Q, P, M, N; A=(2.5, -sqrt(11/4)); B=(-2.5, -sqrt(11/4)); C=(-1.96, 2.28); Q=(-1.89, 2.81); P=(1.13, -1.68); O=origin; M=foot(O,C,B); N=foot(O,A,B); draw(A--B--C--cycle); label(\"$A$\",A,SE); label(\"$B$\",B,SW); label(\"$C$\",C,NW); label(\"$Q$\",Q,NW); dot(O); label(\"$O$\",O,NE); label(\"$M$\",M,W); label(\"$N$\",N,S); label(\"$P$\",P,S); draw(B--O); draw(C--Q); draw(Q--O); draw(O--C); draw(O--A); draw(O--P); draw(O--M, dashed); draw(O--N, dashed); draw(rightanglemark((-2.5, -sqrt(11/4)),(0,0),(-1.89, 2.81),5)); draw(rightanglemark(O,N,B,5)); draw(rightanglemark(B,O,P,5)); draw(rightanglemark(O,M,C,5)); [/asy]",
+        "answer": "",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 974,
+        "prompt": "Find all functions $f: \\mathbb{R}^{+} \\rightarrow \\mathbb{R}^{+}$ such that\n$$f(xf(x + y)) = yf(x) + 1$$\nholds for all $x, y \\in \\mathbb{R}^{+}$.",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 2382,
+        "prompt": "Given that one third of the students go home on the school bus, one fifth go home by automobile, one eighth go home on their bicycles, and one tenth go home on scooters, what fractional part of the students walk home?",
+        "answer": "120",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 3918,
+        "prompt": "Suppose that $x$ and $y$ are real numbers with $-4 \\leq x \\leq -2$ and $2 \\leq y \\leq 4$. What is the greatest possible value of $\\frac{x+y}{x}$?",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 5518,
+        "prompt": "The equation $x^{x^{x^{.^{.^.}}}}=4$ is satisfied when $x$ is equal to:\nA) 2\nB) $\\sqrt[3]{4}$\nC) $\\sqrt{4}$\nD) $\\sqrt{2}$\nE) None of these",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 5774,
+        "prompt": "4(299) + 3(299) + 2(299) + 298 = ",
+        "answer": "299",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 5838,
+        "prompt": "Given two spherical balls of different sizes placed in two corners of a rectangular room, where each ball touches two walls and the floor, and there is a point on each ball such that the distance from the two walls it touches to that point is 5 inches and the distance from the floor to that point is 10 inches, find the sum of the diameters of the two balls.",
+        "answer": "20",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 6862,
+        "prompt": "How many integers between 1000 and 3000 have all three of the numbers 18, 24, and 36 as factors?",
+        "answer": "26",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 1551,
+        "prompt": "The concept of negative numbers first appeared in the ancient Chinese mathematical book \"Nine Chapters on the Mathematical Art.\" If income of $5$ yuan is denoted as $+5$ yuan, then expenses of $5$ yuan are denoted as $-5$ yuan.",
+        "answer": "A",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 4943,
+        "prompt": "Let the sequence $x, 3x+3, 5x+5, \\dots$ be in geometric progression. What is the fourth term of this sequence?",
+        "answer": "3",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 5775,
+        "prompt": "Bernardo and Silvia play the following game. An integer between $0$ and $999$ inclusive is selected and given to Bernardo. Whenever Bernardo receives a number, he doubles it and passes the result to Silvia. Whenever Silvia receives a number, she adds $50$ to it and passes the result to Bernardo. The winner is the last person who produces a number less than $1000$. Let $N$ be the smallest initial number that results in a win for Bernardo. What is the sum of the digits of $N$?",
+        "answer": "8",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 6479,
+        "prompt": "A total of 120 is divided into four parts proportional to 3, 2, 4, and 5. What is the second largest part?",
+        "answer": "34.28",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 7887,
+        "prompt": "How many positive integers at most 420 leave different remainders when divided by each of 5, 6, and 7?",
+        "answer": "7",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 3920,
+        "prompt": "Let $m$ be a fixed integer greater than $1$. The sequence $x_0$, $x_1$, $x_2$, $\\ldots$ is defined as follows: \n\\[x_i = \\begin{cases}2^i&\\text{if }0\\leq i \\leq m - 1;\\\\\\sum_{j=1}^mx_{i-j}&\\text{if }i\\geq m.\\end{cases}\\]\nFind the greatest $k$ for which the sequence contains $k$ consecutive terms divisible by $m$ .\n\n[i]",
+        "answer": "-1",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 4048,
+        "prompt": "The value of $\\tan {75}^{{o}}$ is $\\dfrac{\\sqrt{6}+\\sqrt{2}}{4}$.",
+        "answer": "",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 5648,
+        "prompt": "In the Cartesian coordinate system, the parametric equations of the line $C_{1}$ are $\\left\\{\\begin{array}{l}x=1+t\\cos\\alpha\\\\ y=t\\sin\\alpha\\end{array}\\right.$ (where $t$ is the parameter). Using the origin $O$ as the pole and the positive x-axis as the polar axis, the polar equation of the curve $C_{2}$ is ${\\rho}^{2}=\\frac{4}{3-\\cos2\\theta}$.  \n$(1)$ Find the Cartesian equation of the curve $C_{2}$.  \n$(2)$ If the line $C_{1}$ intersects the curve $C_{2}$ at points $A$ and $B$, and $P(1,0)$, find the value of $\\frac{1}{|PA|}+\\frac{1}{|PB|}$.",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 6288,
+        "prompt": "In an $h$-meter race, Sunny is exactly $d$ meters ahead of Windy when Sunny finishes the race. The next time they race, Sunny sportingly starts $d$ meters behind Windy, who is at the starting line. Both runners run at the same constant speed as they did in the first race. How many meters ahead is Sunny when Sunny finishes the second race?",
+        "answer": "\\frac{^2}{}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 6672,
+        "prompt": "Find all functions $f:\\mathbb{R} \\rightarrow \\mathbb{R}$, such that $$f(xy+f(x^2))=xf(x+y)$$ for all reals $x, y$.",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 6800,
+        "prompt": "Calculate the circulation of the vector field:\n\na) $\\vec{A}=x^{2} y^{2} \\vec{i}+\\vec{j}+z \\vec{k}$ along the circle $x^{2}+y^{2}=a^{2}, z=0$;\n\nb) $\\dot{A}=(x-2 z) \\dot{i}+(x+3 y+z) \\dot{j}+(5 x+y) \\vec{k}$ along the perimeter of the triangle $A B C$ with vertices $A(1,0,0), B(0,1,0), C(0,0,1)$.",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 4433,
+        "prompt": "The perimeter of the triangle formed by the line $\\frac{x}{3} + \\frac{y}{4} = 1$ and the two coordinate axes is $14$.",
+        "answer": "14",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 5329,
+        "prompt": "There are \\( n \\) distinct lines in the plane. One of these lines intersects exactly 5 of the \\( n \\) lines, another one intersects exactly 9 of the \\( n \\) lines, and yet another one intersects exactly 11 of them. Which of the following is the smallest possible value of \\( n \\)?",
+        "answer": "13",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 6225,
+        "prompt": "Find the inclination angle of the line $\\sqrt {2}x+ \\sqrt {6}y+1=0$.",
+        "answer": "150",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 6289,
+        "prompt": "A square with area $4$ is inscribed in a square with area $5$, with each vertex of the smaller square on a side of the larger square. A vertex of the smaller square divides a side of the larger square into two segments, one of length $a$, and the other of length $b$. What is the value of $ab$?",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 6609,
+        "prompt": "Given the polynomial expression \\( x^4 - 61x^2 + 60 \\), for how many integers \\( x \\) is the expression negative.",
+        "answer": "60",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 6865,
+        "prompt": "Determine the volume of the region in space defined by\n\\[|x + y + z| + |x + y - z| \\le 12\\]\nand \\(x, y, z \\ge 0.\\)",
+        "answer": "72",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 7249,
+        "prompt": "The minimum value of the function $f(x) = \\cos^2 x + \\sin x$ is given by $\\frac{-1 + \\sqrt{2}}{2}$.",
+        "answer": "\\frac{-1+\\sqrt{2}}{2}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 3602,
+        "prompt": "The whole numbers from 1 to 1000 are written. How many of these numbers have at least two 7's appearing side-by-side?",
+        "answer": "7",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 6290,
+        "prompt": "Let $S$ be a set of $6$ integers taken from $\\{1,2,\\dots,12\\}$ with the property that if $a$ and $b$ are elements of $S$ with $a<b$, then $b$ is not a multiple of $a$. What is the least possible value of an element in $S$?",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 6738,
+        "prompt": "What is the area of the region enclosed by the graph of the equation $x^2+y^2=|x|+|y|+1?$\nA) $\\frac{\\pi}{2} + 2$\nB) $\\frac{3\\pi}{2}$\nC) $\\frac{3\\pi}{2} + 2$\nD) $2\\pi + 2$",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 6802,
+        "prompt": "In right triangle $XYZ$, we have $\\angle Y = \\angle Z$ and $XY = 8\\sqrt{2}$. What is the area of $\\triangle XYZ$?",
+        "answer": "32",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 211,
+        "prompt": "The remainder can be defined for all real numbers $x$ and $y$ with $y \\neq 0$ by $\\text{rem} (x ,y)=x-y\\left \\lfloor \\frac{x}{y} \\right \\rfloor$ where $\\left \\lfloor \\tfrac{x}{y} \\right \\rfloor$ denotes the greatest integer less than or equal to $\\tfrac{x}{y}$. What is the value of $\\text{rem} (\\tfrac{3}{8}, -\\tfrac{2}{5} )?$",
+        "answer": "40",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 1747,
+        "prompt": "For the set \\( \\{1, 2, 3, \\ldots, 8\\} \\) and each of its non-empty subsets, define a unique alternating sum as follows: arrange the numbers in the subset in decreasing order and alternately add and subtract successive numbers. For instance, the alternating sum for \\( \\{1, 3, 4, 7, 8\\} \\) would be \\( 8-7+4-3+1=3 \\) and for \\( \\{8\\} \\) it is \\( 8 \\). Find the sum of all such alternating sums for \\( n=8 \\).",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 2387,
+        "prompt": "In rectangle $ABCD$, side $AB$ measures $8$ units and side $BC$ measures $4$ units. Points $F$ and $G$ are on side $CD$ such that segment $DF$ measures $2$ units and segment $GC$ measures $2$ units, and lines $AF$ and $BG$ intersect at $E$. What is the area of triangle $AEB$?",
+        "answer": "16",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 2579,
+        "prompt": "Calculate the area of the parallelogram formed by the vectors \\( a \\) and \\( b \\).\n\nGiven:\n\\[ a = 3p - 4q \\]\n\\[ b = p + 3q \\]\n\\[ |p| = 2 \\]\n\\[ |q| = 3 \\]\n\\[ \\text{Angle between } p \\text{ and } q \\text{ is } \\frac{\\pi}{4} \\]",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 4243,
+        "prompt": "Given that $f(x+6) + f(x-6) = f(x)$ for all real $x$, determine the least positive period $p$ for these functions.",
+        "answer": "24",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 4371,
+        "prompt": "The graph of the function y=sin(2x+\u03c6) is shifted to the left by \u03c0/6 units along the x-axis, resulting in an even function graph. Determine the value of \u03c6 such that the equation 2(x + \u03c0/6) + \u03c6 = -x + 2\u03c0k is satisfied for some integer k.",
+        "answer": "3",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 6035,
+        "prompt": "Consider the following diagram showing a rectangular grid of dots consisting of 3 rows and 4 columns. How many rectangles can be formed in this grid?",
+        "answer": "18",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 6419,
+        "prompt": "The function $\\lfloor x\\rfloor$ is defined as the largest integer less than or equal to $x$. For example, $\\lfloor 5.67\\rfloor = 5$, $\\lfloor -\\tfrac 14\\rfloor = -1$, and $\\lfloor 8\\rfloor = 8$.\n\nWhat is the range of the function $$f(x) = \\lfloor x\\rfloor - x~?$$Express your answer in interval notation.",
+        "answer": "[-1,0)",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 7059,
+        "prompt": "Given a right-angled triangle, one of whose acute angles is $\\alpha$. Find the ratio of the radii of the circumscribed and inscribed circles and determine for which value of $\\alpha$ this ratio will be the smallest.",
+        "answer": "\\frac{\\pi}{4}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 3329,
+        "prompt": "Triangle $ABC$ has $AB=2 \\cdot AC$. Let $D$ and $E$ be on $\\overline{AB}$ and $\\overline{BC}$, respectively, such that $\\angle BAE = \\angle ACD$. Let $F$ be the intersection of segments $AE$ and $CD$, and suppose that $\\triangle CFE$ is equilateral. What is $\\angle ACB$?",
+        "answer": "60",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 4097,
+        "prompt": "Points $A$ and $B$ are on a circle of radius $5$ and $AB = 6$. Point $C$ is the midpoint of the minor arc $AB$. What is the length of the line segment $AC$?",
+        "answer": "5",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 6657,
+        "prompt": "All the numbers $1, 2, 3, 4, 5, 6, 7, 8, 9$ are written in a $3\\times3$ array of squares, one number in each square, in such a way that if two numbers are consecutive then they occupy squares that share an edge. The numbers in the four corners add up to $18$. What is the number in the center?",
+        "answer": "5",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 7873,
+        "prompt": "A circle centered at $O$ has radius 1 and contains the point $A$. Segment $AB$ is tangent to the circle at $A$ and $\\angle\nAOB=\\theta$. If point $C$ lies on $\\overline{OA}$ and $\\overline{BC}$ bisects $\\angle ABO$, then express $OC$ in terms of $s$ and $c,$ where $s = \\sin \\theta$ and $c = \\cos \\theta.$\n\n[asy]\npair A,B,C,O;\nO=(0,0);\nA=(1,0);\nC=(0.6,0);\nB=(1,2);\nlabel(\"$\\theta$\",(0.1,0),NE);\nlabel(\"$O$\",O,S);\nlabel(\"$C$\",C,S);\nlabel(\"$A$\",A,E);\nlabel(\"$B$\",B,E);\ndraw(A--O--B--cycle,linewidth(0.7));\ndraw(C--B,linewidth(0.7));\ndraw(Circle(O,1),linewidth(0.7));\n[/asy]",
+        "answer": "\\frac{1}{1+}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 276,
+        "prompt": "Given a set of data $x_1, x_2, x_3, \\ldots, x_n$ with a mean of 2 and a variance of 3, calculate the mean and variance of the data set $2x_1+5, 2x_2+5, 2x_3+5, \\ldots, 2x_n+5$ respectively.",
+        "answer": "9,12",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 4308,
+        "prompt": "Elena earns $\\$ 13.25$ per hour working at a store. How much does Elena earn in 4 hours?",
+        "answer": "4",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 5012,
+        "prompt": "I won a VIP trip for five to a music festival. I can bring four of my friends. I have 10 friends to choose from: 4 are musicians, and 6 are non-musicians. In how many ways can I form my music festival group so that at least one musician is in the group?",
+        "answer": "246",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 5780,
+        "prompt": "Let $S_n$ and $T_n$ be the respective sums of the first $n$ terms of two arithmetic series. If $S_n:T_n=(7n+1):(4n+27)$ for all $n$, the ratio of the eleventh term of the first series to the eleventh term of the second series is:",
+        "answer": "4:3",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 7380,
+        "prompt": "From the numbers \\(1,2, \\cdots, 14\\), select \\(a_{1}, a_{2}, a_{3}\\) in ascending order such that \\(a_{2} - a_{1} \\geq 3\\) and \\(a_{3} - a_{2} \\geq 3\\). How many different ways are there to select the numbers satisfying these conditions?",
+        "answer": "165",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 85,
+        "prompt": "Consider a modified function $C' = \\frac{2en}{R + 2nr}$, where $e = 4$, $R = 6$, and $r = 3$. Determine the behavior of $C'$ as $n$ increases from a positive starting point.",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 4053,
+        "prompt": "What is the greatest integer less than or equal to $\\frac{4^{50}+3^{50}}{4^{47}+3^{47}}$?",
+        "answer": "63",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 5717,
+        "prompt": "Let \\( a \\) and \\( b \\) be integers such that \\( ab = 144 \\). Find the minimum value of \\( a + b \\).",
+        "answer": "24",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 5845,
+        "prompt": "Given $f(x)=x^{3}+3x^{2}+6x$, $f(a)=1$, $f(b)=-9$, the value of $a+b$ is \\_\\_\\_\\_\\_\\_.",
+        "answer": "-1",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 6229,
+        "prompt": "Given the numbers \\( x, y, z \\in \\left[0, \\frac{\\pi}{2}\\right] \\), find the maximum value of the expression\n\n\\[ A = \\sin(x-y) + \\sin(y-z) + \\sin(z-x). \\]",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 855,
+        "prompt": "There are eight envelopes numbered 1 to 8. Find the number of ways in which 4 identical red buttons and 4 identical blue buttons can be put in the envelopes such that each envelope contains exactly one button, and the sum of the numbers on the envelopes containing the red buttons is more than the sum of the numbers on the envelopes containing the blue buttons.",
+        "answer": "35",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 1239,
+        "prompt": "A computer software retailer has 1200 copies of a new software package to sell. Given that half of them will sell right away at the original price, two-thirds of the remainder will sell later when the price is reduced by 40%, and the remaining copies will sell in a clearance sale at 75% off the original price, determine the original price needed to achieve a total sales revenue of $72000.",
+        "answer": "72000",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 4823,
+        "prompt": "Given \\\\(\\cos \\left(\\alpha+ \\frac{\\pi}{6}\\right)-\\sin \\alpha= \\frac{2 \\sqrt{3}}{3} \\\\), determine the value of \\\\(\\sin \\left(\\alpha- \\frac{7\\pi}{6}\\right) \\\\).",
+        "answer": "\\frac{2\\sqrt{3}}{3}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 5207,
+        "prompt": "\nDetermine the volume of the released gas:\n\n\\[ \\omega\\left(\\mathrm{SO}_{2}\\right) = n\\left(\\mathrm{SO}_{2}\\right) \\cdot V_{m} = 0.1122 \\cdot 22.4 = 2.52 \\text{ liters} \\]",
+        "answer": "",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 3800,
+        "prompt": "A merchant buys $n$ radios for $d$ dollars, where $d$ is a positive integer. The merchant sells two radios at half the cost price to a charity sale, and the remaining radios at a profit of 8 dollars each. If the total profit is 72 dollars, what is the smallest possible value of $n$?",
+        "answer": "11",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 6680,
+        "prompt": "Given that \\( P \\) is any point on the arc \\( \\overparen{AD} \\) of the circumscribed circle of square \\( ABCD \\), find the value of \\( \\frac{PA + PC}{PB} \\).",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 6936,
+        "prompt": "In a group of 10 basketball teams which includes 2 strong teams, the teams are randomly split into two equal groups for a competition. What is the probability that the 2 strong teams do not end up in the same group?",
+        "answer": "9",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 7768,
+        "prompt": "Each vertex of the parallelogram $ABCD$ lies on the same side of the plane $S$ such that the distances of the vertices $A, B$, and $C$ from the plane $S$ are 4 cm, 6 cm, and 8 cm, respectively. The area of the projection of the parallelogram onto the plane $S$, which forms the quadrilateral $A'B'C'D'$, is $10 \\text{ cm}^2$. What is the volume of the solid $ABCD A'B'C'D'$?",
+        "answer": "60^3",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 5721,
+        "prompt": "Given the hyperbola $\\dfrac {x^{2}}{a^{2}}- \\dfrac {y^{2}}{b^{2}}=1(a > 0,b > 0)$ with eccentricity $e= \\dfrac {2 \\sqrt {3}}{3}$, calculate the angle between the two asymptotes.",
+        "answer": "60",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 7385,
+        "prompt": "Five marbles are distributed at a random among seven urns. What is the expected number of urns with exactly one marble?",
+        "answer": "\\frac{45360}{16807}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 7577,
+        "prompt": "Determine the number of 0-1 binary sequences of ten 0's and ten 1's which do not contain three 0's together.",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 1882,
+        "prompt": "At the end of 1994, Walter was half as old as his grandmother. The sum of the years in which they were born was 3838. How old will Walter be at the end of 1999?",
+        "answer": "1999",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 2458,
+        "prompt": "Three of the four vertices of a rectangle are \\((1, 7)\\), \\((14, 7)\\), and \\((14, -4)\\). What is the area of the intersection of this rectangular region and the region inside the graph of the equation \\((x - 1)^2 + (y + 4)^2 = 16\\)?",
+        "answer": "4",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 6170,
+        "prompt": "How many distinct terms are in the expansion of \\[(a+b+c+d)(e+f+g+h+i)\\] assuming that terms involving the product of $a$ and $e$, and $b$ and $f$ are identical and combine into a single term?",
+        "answer": "18",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 7898,
+        "prompt": "For positive integer $n_{}^{}$, define $S_n^{}$ to be the minimum value of the sum $\\sum_{k=1}^n \\sqrt{(2k-1)^2+a_k^2},$ where $a_1,a_2,\\ldots,a_n^{}$ are positive real numbers whose sum is 17. There is a unique positive integer $n^{}_{}$ for which $S_n^{}$ is also an integer. Find this $n^{}_{}$.",
+        "answer": "17",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 731,
+        "prompt": "For a positive integer $n$, let, $\\tau(n)$ be the number of positive integer divisors of $n$. How many integers $1 \\leq n \\leq 50$ are there such that $\\tau(\\tau(n))$ is odd?",
+        "answer": "50",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 220,
+        "prompt": "Let $S$ be the set $\\{1,2,3,...,19\\}$. For $a,b \\in S$, define $a \\succ b$ to mean that either $0 < a - b \\le 9$ or $b - a > 9$. How many ordered triples $(x,y,z)$ of elements of $S$ have the property that $x \\succ y$, $y \\succ z$, and $z \\succ x$?",
+        "answer": "1539",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 604,
+        "prompt": "Given that $-6 \\leq x \\leq -3$ and $1 \\leq y \\leq 5$, what is the largest possible value of $\\frac{x+y}{x}$?",
+        "answer": "6",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 2524,
+        "prompt": "To $m$ ounces of a $m\\%$ solution of acid, $x$ ounces of water are added to yield a $(m-10)\\%$ solution.  If $m>25$, then $x$ is",
+        "answer": "\\frac{10m}{-10}",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 4188,
+        "prompt": "Given that $\u03b8$ is a real number, if the complex number $z=\\sin 2\u03b8-1+i( \\sqrt {2}\\cos \u03b8-1)$ is a purely imaginary number, then the imaginary part of $z$ is _______.",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    },
+    {
+        "id": 6812,
+        "prompt": "Let $a$ and $b$ be positive real numbers.  Find the maximum value of\n\\[2(a - x)(x + \\sqrt{x^2 + b^2})\\]in terms of $a$ and $b.$",
+        "answer": "^2+b^2",
+        "source": "deepscaler_mv_labeled_qwen2.5_math_7b_incorrect"
+    }
+]

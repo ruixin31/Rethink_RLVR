@@ -1,0 +1,602 @@
+[
+    {
+        "id": 256,
+        "prompt": "Given positive integers \\( a, b, \\) and \\( c \\) such that \\( a < b < c \\). If the product of any two numbers minus 1 is divisible by the third number, what is \\( a^{2} + b^{2} + c^{2} \\)?",
+        "answer": "14",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 320,
+        "prompt": "Given that $a,b$ are constants, and $a \\neq 0$, $f\\left( x \\right)=ax^{2}+bx$, $f\\left( 2 \\right)=0$.\n\n(1) If the equation $f\\left( x \\right)-x=0$ has a unique real root, find the analytic expression of the function $f\\left( x \\right)$;\n\n(2) When $a=1$, find the maximum and minimum values of the function $f\\left( x \\right)$ on the interval $\\left[-1,2 \\right]$.",
+        "answer": "3-1",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 1728,
+        "prompt": "For which natural numbers \\( n \\) is the sum \\( 5^n + n^5 \\) divisible by 13? What is the smallest \\( n \\) that satisfies this condition?",
+        "answer": "3",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 1792,
+        "prompt": "In response to the national medical and health system reform and the \"Three Visits to the Countryside\" cultural and scientific activities nationwide in 2023, to truly implement the concept of \"putting the people first\" and promote the transfer and decentralization of high-quality medical resources, continuously enhance the \"depth\" and \"warmth\" of medical services. The People's Hospital of our city plans to select 3 doctors from the 6 doctors recommended by each department to participate in the activity of \"Healthy Countryside Visit, Free Clinic Warming Hearts.\" Among these 6 doctors, there are 2 surgeons, 2 internists, and 2 ophthalmologists.\n- $(1)$ Find the probability that the number of selected surgeons is greater than the number of selected internists.\n- $(2)$ Let $X$ represent the number of surgeons selected out of the 3 people. Find the mean and variance of $X$.",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 2624,
+        "prompt": "A thousand integer divisions are made:  $2018$  is divided by each of the integers from  $ 1$  to  $1000$ . Thus, a thousand integer quotients are obtained with their respective remainders. Which of these thousand remainders is the bigger?",
+        "answer": "999",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 3456,
+        "prompt": "In an organization with 200 employees, those over the age of 50 account for 20%, those aged 40-50 make up 30%, and those under 40 account for 50%. If 40 employees are to be sampled, and the systematic sampling method is used\u2014where all employees are randomly numbered 1-200 and evenly divided into 40 groups (numbers 1-5, 6-10, ..., 196-200)\u2014and if the number 22 is drawn from the 5th group, then the number drawn from the 8th group would be \u2460. If stratified sampling is employed, then the number of individuals to be drawn from the under-40 age group would be \u2461. The correct data for \u2460 and \u2461 are respectively ( ).",
+        "answer": "D",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 5184,
+        "prompt": "How many ways are there to arrange the letters of the word $\\text{C}_1\\text{O}_1\\text{M}_1\\text{M}_2\\text{U}_1\\text{N}_1\\text{I}_1\\text{T}_1$, in which the two M's are considered different?",
+        "answer": "362880",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 5248,
+        "prompt": "How many of the twelve pentominoes pictured below have at least one line of reflectional symmetry?\n[asy] unitsize(5mm); defaultpen(linewidth(1pt)); draw(shift(2,0)*unitsquare); draw(shift(2,1)*unitsquare); draw(shift(2,2)*unitsquare); draw(shift(1,2)*unitsquare); draw(shift(0,2)*unitsquare); draw(shift(2,4)*unitsquare); draw(shift(2,5)*unitsquare); draw(shift(2,6)*unitsquare); draw(shift(1,5)*unitsquare); draw(shift(0,5)*unitsquare); draw(shift(4,8)*unitsquare); draw(shift(3,8)*unitsquare); draw(shift(2,8)*unitsquare); draw(shift(1,8)*unitsquare); draw(shift(0,8)*unitsquare); draw(shift(6,8)*unitsquare); draw(shift(7,8)*unitsquare); draw(shift(8,8)*unitsquare); draw(shift(9,8)*unitsquare); draw(shift(9,9)*unitsquare); draw(shift(6,5)*unitsquare); draw(shift(7,5)*unitsquare); draw(shift(8,5)*unitsquare); draw(shift(7,6)*unitsquare); draw(shift(7,4)*unitsquare); draw(shift(6,1)*unitsquare); draw(shift(7,1)*unitsquare); draw(shift(8,1)*unitsquare); draw(shift(6,0)*unitsquare); draw(shift(7,2)*unitsquare); draw(shift(11,8)*unitsquare); draw(shift(12,8)*unitsquare); draw(shift(13,8)*unitsquare); draw(shift(14,8)*unitsquare); draw(shift(13,9)*unitsquare); draw(shift(11,5)*unitsquare); draw(shift(12,5)*unitsquare); draw(shift(13,5)*unitsquare); draw(shift(11,6)*unitsquare); draw(shift(13,4)*unitsquare); draw(shift(11,1)*unitsquare); draw(shift(12,1)*unitsquare); draw(shift(13,1)*unitsquare); draw(shift(13,2)*unitsquare); draw(shift(14,2)*unitsquare); draw(shift(16,8)*unitsquare); draw(shift(17,8)*unitsquare); draw(shift(18,8)*unitsquare); draw(shift(17,9)*unitsquare); draw(shift(18,9)*unitsquare); draw(shift(16,5)*unitsquare); draw(shift(17,6)*unitsquare); draw(shift(18,5)*unitsquare); draw(shift(16,6)*unitsquare); draw(shift(18,6)*unitsquare); draw(shift(16,0)*unitsquare); draw(shift(17,0)*unitsquare); draw(shift(17,1)*unitsquare); draw(shift(18,1)*unitsquare); draw(shift(18,2)*unitsquare);[/asy]",
+        "answer": "7",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 5568,
+        "prompt": "For each permutation $a_1,a_2,a_3,\\cdots,a_{10}$ of the integers $1,2,3,\\cdots,10$, form the sum\n\\[|a_1-a_2|+|a_3-a_4|+|a_5-a_6|+|a_7-a_8|+|a_9-a_{10}|.\\]\nThe average value of all such sums can be written in the form $\\dfrac{p}{q}$, where $p$ and $q$ are relatively prime positive integers. Find $p+q$.\n",
+        "answer": "26",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 5888,
+        "prompt": "Given the line $l$: $x=my+1$ passes through the right focus $F$ of the ellipse $C$: $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1 (a > b > 0)$, the focus of the parabola $x^{2}=4\\sqrt{3}y$ is the upper vertex of the ellipse $C$, and the line $l$ intersects the ellipse $C$ at points $A$ and $B$.\n\n1. Find the equation of the ellipse $C$.\n2. If the line $l$ intersects the $y$-axis at point $M$, and $\\overrightarrow{MA}=\\lambda_{1}\\overrightarrow{AF}, \\overrightarrow{MB}=\\lambda_{2}\\overrightarrow{BF}$, is the value of $\\lambda_{1}+\\lambda_{2}$ a constant as $m$ varies? If so, find this constant. If not, explain why.",
+        "answer": "-2",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 6080,
+        "prompt": "If there are exactly $3$ integer solutions for the inequality system about $x$: $\\left\\{\\begin{array}{c}6x-5\u2265m\\\\ \\frac{x}{2}-\\frac{x-1}{3}\uff1c1\\end{array}\\right.$, and the solution to the equation about $y$: $\\frac{y-2}{3}=\\frac{m-2}{3}+1$ is a non-negative number, find the sum of all integers $m$ that satisfy the conditions.",
+        "answer": "21",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 6400,
+        "prompt": "When a certain unfair die is rolled, an even number is $5$ times as likely to appear as an odd number. The die is rolled twice. Calculate the probability that the sum of the numbers rolled is odd.",
+        "answer": "\\frac{5}{162}",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 6528,
+        "prompt": "In $\\triangle ABC$, the sides opposite to angles $A$, $B$, and $C$ are $a$, $b$, and $c$, respectively, and $\\cos A= \\frac{ \\sqrt{6}}{3}$.\n(1) Find $\\tan 2A$;\n(2) If $\\cos B= \\frac{ 2\\sqrt{2}}{3}, c=2\\sqrt{2}$, find the area of $\\triangle ABC$.",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 6656,
+        "prompt": "Positive integers $a$, $b$, and $c$ are randomly and independently selected with replacement from the set $\\{1, 2, 3,\\dots, 2010\\}$. What is the probability that $abc + ab + a$ is divisible by $3$?",
+        "answer": "\\frac{5}{9}",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 6720,
+        "prompt": "Consider the function $g(x) = \\frac{ax+b}{cx+d}$, where $a$, $b$, $c$, and $d$ are nonzero real numbers. Assume $g(5) = 5$ and $g(25) = 25$, and it also satisfies $g(g(x)) = x$ for all values except $\\frac{-d}{c}$. Find the unique number that is not in the range of $g$.",
+        "answer": "-\\frac{}{}",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 7232,
+        "prompt": "A TV station is broadcasting 5 different advertisements, among which there are 3 different commercial advertisements and 2 different Olympic promotional advertisements. It is required that the last advertisement must be an Olympic promotional advertisement, and the two Olympic promotional advertisements cannot be broadcast consecutively. Determine the number of different broadcasting methods.",
+        "answer": "24",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 7360,
+        "prompt": "An acute triangle $ABC$ is inscribed in a circle of radius 1 with centre $O;$ all the angles of $ABC$ are greater than $45^\\circ.$ \n$B_{1}$ is the foot of perpendicular from $B$ to $CO,$ $B_{2}$ is the foot of perpendicular from $B_{1}$ to $AC.$ \nSimilarly, $C_{1}$ is the foot of perpendicular from $C$ to $BO,$ $C_{2}$ is the foot of perpendicular from $C_{1}$ to $AB.$ \nThe lines $B_{1}B_{2}$ and $C_{1}C_{2}$ intersect at $A_{3}.$ The points $B_{3}$ and $C_{3}$ are defined in the same way. \nFind the circumradius of triangle $A_{3}B_{3}C_{3}.$",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 7552,
+        "prompt": "There is a type of four-digit number where the sum of any two adjacent digits is no greater than 2. When these numbers are arranged in ascending order, what is the second to last number?",
+        "answer": "1110",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 7936,
+        "prompt": "Given the table showing the weekly reading times of $30$ students, with $7$ students reading $6$ hours, $8$ students reading $7$ hours, $5$ students reading $8$ hours, and $10$ students reading $9$ hours, find the median of the weekly reading times for these $30$ students.",
+        "answer": "7",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 705,
+        "prompt": "Let $D(n)$ denote the number of ways of writing the positive integer $n$ as a product\n\\[n = f_1\\cdot f_2\\cdots f_k,\\]where $k\\ge1$, the $f_i$ are integers strictly greater than $1$, and the order in which the factors are listed matters (that is, two representations that differ only in the order of the factors are counted as distinct). For example, the number $6$ can be written as $6$, $2\\cdot 3$, and $3\\cdot2$, so $D(6) = 3$. What is $D(96)$?",
+        "answer": "89",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 1921,
+        "prompt": "Let the sum of a set of numbers be the sum of its elements. Let $S$ be a set of positive integers, none greater than 15. Suppose no two disjoint subsets of $S$ have the same sum. What is the largest sum a set $S$ with these properties can have?",
+        "answer": "15",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 3201,
+        "prompt": "Given that $\\theta$ is an angle in the third quadrant, if $\\sin^{4}{\\theta} + \\cos^{4}{\\theta} = \\frac{5}{9}$, find the value of $\\sin{2\\theta}$.",
+        "answer": "-\\frac{2\\sqrt{2}}{3}",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 3329,
+        "prompt": "Triangle $ABC$ has $AB=2 \\cdot AC$. Let $D$ and $E$ be on $\\overline{AB}$ and $\\overline{BC}$, respectively, such that $\\angle BAE = \\angle ACD$. Let $F$ be the intersection of segments $AE$ and $CD$, and suppose that $\\triangle CFE$ is equilateral. What is $\\angle ACB$?",
+        "answer": "60",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 3393,
+        "prompt": "What is the smallest positive four-digit number divisible by 8 which has three odd and one even digit?",
+        "answer": "1112",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 3457,
+        "prompt": "A recipe calls for $\\frac{1}{3}$ cup of sugar. If you already have $\\frac{1}{6}$ cup, how much more sugar is required to reach the initial quantity? Once you find this quantity, if you need a double amount for another recipe, how much sugar would that be in total?",
+        "answer": "\\frac{2}{3}",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 3585,
+        "prompt": "Select 2 different numbers from 1, 3, 5, and 3 different numbers from 2, 4, 6, 8 to form a five-digit number, and determine the total number of even numbers among these five-digit numbers.",
+        "answer": "288",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 3777,
+        "prompt": "What is the largest possible remainder that is obtained when a two-digit number is divided by the sum of its digits?",
+        "answer": "8",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 3969,
+        "prompt": "The numbers from 1 to 9 are divided into three groups of three numbers, and then the numbers in each group are multiplied. $A$ is the largest of the three products. What is the smallest possible value of $A$?",
+        "answer": "36",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 4033,
+        "prompt": "Start with a three-digit positive integer  $A$ . Obtain  $B$  by interchanging the two leftmost digits of  $A$ . Obtain  $C$  by doubling  $B$ . Obtain  $D$  by subtracting  $500$  from  $C$ . Given that  $A + B + C + D = 2014$ , fi\fnd  $A$ .",
+        "answer": "870",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 4289,
+        "prompt": "Let $n$ be the least positive integer greater than $1000$ for which\n\\[\\gcd(63, n+120) =21\\quad \\text{and} \\quad \\gcd(n+63, 120)=60.\\]What is the sum of the digits of $n$?",
+        "answer": "12",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 4417,
+        "prompt": "Calculate the sum of the $2023$ roots of $(x-1)^{2023} + 2(x-2)^{2022} + 3(x-3)^{2021} + \\cdots + 2022(x-2022)^2 + 2023(x-2023)$.",
+        "answer": "2023",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 4737,
+        "prompt": "Let $K$ be the product of all factors $(b-a)$ (not necessarily distinct) where $a$ and $b$ are integers satisfying $1\\le a < b \\le 20$. Find the greatest positive integer $n$ such that $2^n$ divides $K$.",
+        "answer": "190",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 5121,
+        "prompt": "Find the maximum positive integer \\( n \\) such that\n\\[ \nn^{2} \\leq 160 \\times 170 \\times 180 \\times 190\n\\]",
+        "answer": "31620",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 5505,
+        "prompt": "A national team needs to select 4 out of 6 sprinters to participate in the 4\u00d7100m relay at the Asian Games. If one of them, A, cannot run the first leg, and another, B, cannot run the fourth leg, how many different methods are there to select the team?",
+        "answer": "240",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 5889,
+        "prompt": "For a $k$-element subset $T$ of the set $\\{1,2,\\cdots,242\\}$, every pair of elements (which may be the same) in $T$ has a sum that is not an integer power of 3. Find the maximum value of $k$.",
+        "answer": "161",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 5953,
+        "prompt": "Let $k$ be an integer greater than 1. Suppose $a_0 > 0$, and define \\[a_{n+1} = a_n + \\frac{1}{\\sqrt[k]{a_n}}\\] for $n > 0$. Evaluate \\[\\lim_{n \\to \\infty} \\frac{a_n^{k+1}}{n^k}.\\]",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 6337,
+        "prompt": "The function \\( f(x) = \\frac{x^{2}}{8} + x \\cos x + \\cos (2x) \\) (for \\( x \\in \\mathbf{R} \\)) has a minimum value of ___",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 6657,
+        "prompt": "All the numbers $1, 2, 3, 4, 5, 6, 7, 8, 9$ are written in a $3\\times3$ array of squares, one number in each square, in such a way that if two numbers are consecutive then they occupy squares that share an edge. The numbers in the four corners add up to $18$. What is the number in the center?",
+        "answer": "5",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 6913,
+        "prompt": "The real numbers $x$ and $y$ satisfy the equation $2\\cos ^{2}(x+y-1)= \\frac {(x+1)^{2}+(y-1)^{2}-2xy}{x-y+1}$. Find the minimum value of $xy$.",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 7169,
+        "prompt": "The rightmost nonzero digit in the decimal expansion of 101 ! is the same as the rightmost nonzero digit of $n$ !, where $n$ is an integer greater than 101. Find the smallest possible value of $n$.",
+        "answer": "105",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 7233,
+        "prompt": "Find the number of real solutions to the equation:\n\\[\n\\frac{1^2}{x - 1} + \\frac{2^2}{x - 2} + \\frac{3^2}{x - 3} + \\dots + \\frac{120^2}{x - 120} = x.\n\\]",
+        "answer": "119",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 7361,
+        "prompt": "Suppose $n$ is a positive integer and $d$ is a single digit in base 10. Find $n$ if\n$\\frac{n}{810}=0.d25d25d25\\ldots$",
+        "answer": "45",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 7873,
+        "prompt": "A circle centered at $O$ has radius 1 and contains the point $A$. Segment $AB$ is tangent to the circle at $A$ and $\\angle\nAOB=\\theta$. If point $C$ lies on $\\overline{OA}$ and $\\overline{BC}$ bisects $\\angle ABO$, then express $OC$ in terms of $s$ and $c,$ where $s = \\sin \\theta$ and $c = \\cos \\theta.$\n\n[asy]\npair A,B,C,O;\nO=(0,0);\nA=(1,0);\nC=(0.6,0);\nB=(1,2);\nlabel(\"$\\theta$\",(0.1,0),NE);\nlabel(\"$O$\",O,S);\nlabel(\"$C$\",C,S);\nlabel(\"$A$\",A,E);\nlabel(\"$B$\",B,E);\ndraw(A--O--B--cycle,linewidth(0.7));\ndraw(C--B,linewidth(0.7));\ndraw(Circle(O,1),linewidth(0.7));\n[/asy]",
+        "answer": "\\frac{}{+}",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 66,
+        "prompt": "Given the function $f(x) = x^3 + 3x^2 + 6x + 4$, and given that $f(a) = 14$ and $f(b) = -14$, calculate the value of $a + b$.",
+        "answer": "-3",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 1730,
+        "prompt": "A box contains one hundred multicolored balls: 28 red, 20 green, 13 yellow, 19 blue, 11 white, and 9 black. What is the minimum number of balls that must be drawn from the box, without looking, to ensure that at least 15 balls of one color are among them?",
+        "answer": "85",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 1858,
+        "prompt": "Evaluate the expression\n\\[\n  \\frac{121 \\left( \\frac{1}{13} - \\frac{1}{17} \\right) \n          + 169 \\left( \\frac{1}{17} - \\frac{1}{11} \\right) + 289 \\left( \\frac{1}{11} - \\frac{1}{13} \\right)}{\n        11 \\left( \\frac{1}{13} - \\frac{1}{17} \\right) \n          + 13 \\left( \\frac{1}{17} - \\frac{1}{11} \\right) + 17 \\left( \\frac{1}{11} - \\frac{1}{13} \\right)} \\, .\n\\]",
+        "answer": "11",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 2434,
+        "prompt": "Denis has cards with numbers from 1 to 50. How many ways are there to choose two cards such that the difference of the numbers on the cards is 11, and their product is divisible by 5?\n\nThe order of the selected cards does not matter: for example, selecting cards with numbers 5 and 16, as well as selecting cards with numbers 16 and 5, is considered the same way.",
+        "answer": "8",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 2626,
+        "prompt": "Given that the price savings of buying the computer at store A is $15 more than buying it at store B, and store A offers a 15% discount followed by a $90 rebate, while store B offers a 25% discount and no rebate, calculate the sticker price of the computer.",
+        "answer": "1050",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 3202,
+        "prompt": "What is the least possible value of the expression (x+1)(x+2)(x+3)(x+4) + 2021 where x is a real number?",
+        "answer": "2021",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 3330,
+        "prompt": "Three machines $\\text{P, Q, and R,}$ working together, can do a job in $x$ hours. When working alone, $\\text{P}$ needs an additional $6$ hours to do the job; $\\text{Q}$, one additional hour; and $\\text{R}$, $x$ additional hours. The value of $x$ is:",
+        "answer": "\\frac{3}{2}",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 3778,
+        "prompt": "Suppose \\( x_{1}, x_{2}, \\ldots, x_{49} \\) are real numbers such that\n\n\\[ x_{1}^{2} + 2 x_{2}^{2} + \\cdots + 49 x_{49}^{2} = 1. \\]\n\nFind the maximum value of \\( x_{1} + 2 x_{2} + \\cdots + 49 x_{49} \\).",
+        "answer": "7",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 4610,
+        "prompt": "Consider a $3 \\times 3$ array where each row and each column is an arithmetic sequence with three terms. The first term of the first row is $3$, and the last term of the first row is $15$. Similarly, the first term of the last row is $9$, and the last term of the last row is $33$. Determine the value of the center square, labeled $Y$.",
+        "answer": "18",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 4738,
+        "prompt": "The vertices of a regular nonagon (9-sided polygon) are to be labeled with the digits 1 through 9 in such a way that the sum of the numbers on every three consecutive vertices is a multiple of 3. Two acceptable arrangements are considered to be indistinguishable if one can be obtained from the other by rotating the nonagon in the plane. Find the number of distinguishable acceptable arrangements.",
+        "answer": "12",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 4802,
+        "prompt": "A three-digit number is composed of three different non-zero digits in base ten. When divided by the sum of these three digits, the smallest quotient value is what?",
+        "answer": "10",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 5314,
+        "prompt": "Adva is a regular tetrahedron with side length \\( s \\), and there are three spheres associated with it. The first sphere passes through the vertices of the tetrahedron, the second intersects the midpoints of the edges, and the third is inscribed such that it touches the faces of the tetrahedron. How do the surface areas of these spheres compare to each other?",
+        "answer": "9:1:1",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 5634,
+        "prompt": "In $\\triangle XYZ$, $\\angle X = 90^\\circ$ and $\\tan Z = \\sqrt{3}$. If $YZ = 150$, what is $XY$?",
+        "answer": "75",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 5698,
+        "prompt": "In triangle $DEF$, $DE = 8$, $EF = 6$, and $FD = 10$.\n\n[asy]\ndefaultpen(1);\n\npair D=(0,0), E=(0,6), F=(8,0);\ndraw(D--E--F--cycle);\n\nlabel(\"\\(D\\)\",D,SW);\nlabel(\"\\(E\\)\",E,N);\nlabel(\"\\(F\\)\",F,SE);\n\n[/asy]\n\nPoint $Q$ is arbitrarily placed inside triangle $DEF$. What is the probability that $Q$ lies closer to $D$ than to either $E$ or $F$?",
+        "answer": "\\frac{1}{3}",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 5826,
+        "prompt": "The sequence $\\left\\{a_{n}\\right\\}$ satisfies $a_{1} = 1$, and for each $n \\in \\mathbf{N}^{*}$, $a_{n}$ and $a_{n+1}$ are the roots of the equation $x^{2} + 3n x + b_{n} = 0$. Find $\\sum_{k=1}^{20} b_{k}$.",
+        "answer": "3080",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 5954,
+        "prompt": "Determine the maximum integer $ n $ such that for each positive integer $ k \\le \\frac{n}{2} $ there are two positive divisors of $ n $ with difference $ k $.",
+        "answer": "12",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 6274,
+        "prompt": "Let $\\theta$ be the smallest acute angle for which $\\sin \\theta,$ $\\sin 2 \\theta,$ $\\sin 3 \\theta$ form an arithmetic progression, in some order.  Find $\\cos \\theta.$",
+        "answer": "\\frac{1}{2}",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 6658,
+        "prompt": "Find the smallest integer $n \\geq 5$ for which there exists a set of $n$ distinct pairs $\\left(x_{1}, y_{1}\\right), \\ldots,\\left(x_{n}, y_{n}\\right)$ of positive integers with $1 \\leq x_{i}, y_{i} \\leq 4$ for $i=1,2, \\ldots, n$, such that for any indices $r, s \\in\\{1,2, \\ldots, n\\}$ (not necessarily distinct), there exists an index $t \\in\\{1,2, \\ldots, n\\}$ such that 4 divides $x_{r}+x_{s}-x_{t}$ and $y_{r}+y_{s}-y_{t}$.",
+        "answer": "5",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 6786,
+        "prompt": "We choose 100 points in the coordinate plane. Let  $N$  be the number of triples  $(A,B,C)$  of distinct chosen points such that  $A$  and  $B$  have the same  $y$ -coordinate, and  $B$  and  $C$  have the same  $x$ -coordinate. Find the greatest value that  $N$  can attain considering all possible ways to choose the points.",
+        "answer": "2500",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 7298,
+        "prompt": "A research study group is investigating the traffic volume at a certain intersection near the school during the rush hour from 8:00 to 10:00. After long-term observation and statistics, they have established a simple function model between traffic volume and average vehicle speed. The model is as follows: Let the traffic volume be $y$ (thousand vehicles per hour) and the average vehicle speed be $v$ (kilometers per hour), then $y=\\frac{25v}{{v}^{2}-5v+16}$ $(v>0)$.  \n$(1)$ If the traffic volume during the rush hour is required to be no less than 5 thousand vehicles per hour, in what range should the average vehicle speed be?  \n$(2)$ During the rush hour, at what average vehicle speed is the traffic volume maximum? What is the maximum traffic volume?",
+        "answer": "4",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 7362,
+        "prompt": "Ten points in the plane are given, with no three collinear. Four distinct segments joining pairs of these points are chosen at random, all such segments being equally likely. The probability that some three of the segments form a triangle whose vertices are among the ten given points is $m/n,$ where $m_{}$ and $n_{}$ are relatively prime positive integers. Find $m+n.$",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 7490,
+        "prompt": "Let  $x \\neq y$  be positive reals satisfying  $x^3+2013y=y^3+2013x$ , and let  $M = \\left( \\sqrt{3}+1 \\right)x + 2y$ .  Determine the maximum possible value of  $M^2$ .\n\n*Proposed by Varun Mohan*",
+        "answer": "8052",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 451,
+        "prompt": "If\n\\[\\tan x = \\frac{2ab}{a^2 - b^2},\\]where $a > b > 0$ and $0^\\circ < x < 90^\\circ,$ then find $\\sin x$ in terms of $a$ and $b.$",
+        "answer": "\\frac{2ab}{^2+b^2}",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 835,
+        "prompt": "In the diagram, \\(PQRS\\) is a square with side length 8. Points \\(T\\) and \\(U\\) are on \\(PS\\) and \\(QR\\) respectively with \\(QU = TS = 1\\). The length of \\(TU\\) is closest to",
+        "answer": "7.2",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 899,
+        "prompt": "For certain ordered pairs $(a,b)\\,$ of real numbers, the system of equations\n\\[\\begin{aligned} ax+by&=1 \\\\ x^2 + y^2 &= 50  \\end{aligned}\\]has at least one solution, and each solution is an ordered pair $(x,y)\\,$ of integers. How many such ordered pairs $(a,b)\\,$ are there?",
+        "answer": "12",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 1027,
+        "prompt": "The numbers from 1 to 8 are arranged at the vertices of a cube in such a way that the sum of the numbers at any three vertices on the same face is at least 10. What is the minimum possible sum of the numbers on the vertices of one face?",
+        "answer": "10",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 1219,
+        "prompt": "Let $S = \\{1, 2, \\dots, n\\}$ for some integer $n > 1$. Say a permutation $\\pi$ of $S$ has a \\emph{local maximum} at $k \\in S$ if \\begin{enumerate} \\item[(i)] $\\pi(k) > \\pi(k+1)$ for $k=1$; \\item[(ii)] $\\pi(k-1) < \\pi(k)$ and $\\pi(k) > \\pi(k+1)$ for $1 < k < n$; \\item[(iii)] $\\pi(k-1) < \\pi(k)$ for $k=n$. \\end{enumerate} (For example, if $n=5$ and $\\pi$ takes values at $1, 2, 3, 4, 5$ of $2, 1, 4, 5, 3$, then $\\pi$ has a local maximum of 2 at $k=1$, and a local maximum of 5 at $k=4$.) What is the average number of local maxima of a permutation of $S$, averaging over all permutations of $S$?",
+        "answer": "\\frac{n}{2}",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 1283,
+        "prompt": "Let \\( f(x) \\) be a function from \\( \\mathbf{R} \\) to \\( \\mathbf{R} \\), and for any real numbers, it holds that\n$$\nf(x^{2}+x) + 2 f(x^{2}-3x+2) = 9x^{2} - 15x,\n$$\nthen the value of \\( f(50) \\) is ( ).",
+        "answer": "74",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 2243,
+        "prompt": "The equation of the directrix of the parabola $y^{2}=6x$ is $x=\\frac{3}{2}$.",
+        "answer": "B",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 2307,
+        "prompt": "If $a_0 = \\sin^2 \\left( \\frac{\\pi}{45} \\right)$ and\n\\[a_{n + 1} = 4a_n (1 - a_n)\\]for $n \\ge 0,$ find the smallest positive integer $n$ such that $a_n = a_0.$",
+        "answer": "6",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 2371,
+        "prompt": "Given the function $f(x) = e^{x} \\cos x - x$.\n(I) Find the equation of the tangent line to the curve $y = f(x)$ at the point $(0, f(0))$;\n(II) Find the maximum and minimum values of the function $f(x)$ on the interval $[0, \\frac{\\pi}{2}]$.",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 2499,
+        "prompt": "What is the greatest common divisor of $121^2 + 233^2 + 345^2$ and $120^2 + 232^2 + 346^2$?",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 2691,
+        "prompt": "Given that $-4\\leq x\\leq-2$ and $2\\leq y\\leq4$, what is the largest possible value of $\\frac{x+y}{x}$?",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 3395,
+        "prompt": "Through two vertices of an equilateral triangle \\(ABC\\) with an area of \\(21 \\sqrt{3} \\ \\text{cm}^2\\), a circle is drawn such that two sides of the triangle are tangent to the circle. Find the radius of this circle.",
+        "answer": "\\sqrt{7}",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 4035,
+        "prompt": "Find the minimum value of\n$$\n\\begin{aligned}\nA & =\\sqrt{\\left(1264-z_{1}-\\cdots-z_{n}\\right)^{2}+x_{n}^{2}+y_{n}^{2}}+ \\\\\n& \\sqrt{z_{n}^{2}+x_{n-1}^{2}+y_{n-1}^{2}}+\\cdots+\\sqrt{z_{2}^{2}+x_{1}^{2}+y_{1}^{2}}+ \\\\\n& \\sqrt{z_{1}^{2}+\\left(948-x_{1}-\\cdots-x_{n}\\right)^{2}+\\left(1185-y_{1}-\\cdots-y_{n}\\right)^{2}}\n\\end{aligned}\n$$\n\nwhere \\(x_{i}, y_{i}, z_{i}, i=1,2, \\cdots, n\\) are non-negative real numbers.",
+        "answer": "2013",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 4163,
+        "prompt": "A sequence of one hundred natural numbers $x, x+1, x+2, \\cdots, x+99$ has a sum $a$. If the sum of the digits of $a$ is 50, what is the smallest possible value of $x$?",
+        "answer": "455",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 4803,
+        "prompt": "What is the last two digits of the decimal representation of  $9^{8^{7^{\\cdot^{\\cdot^{\\cdot^{2}}}}}}$ ?",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 5123,
+        "prompt": "Multiply $2$ by $54$. For each proper divisor of $1,000,000$, take its logarithm base $10$. Sum these logarithms to get $S$, and find the integer closest to $S$.",
+        "answer": "288",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 5251,
+        "prompt": "The figure below shows line $\\ell$ with a regular, infinite, recurring pattern of squares and line segments.\n[asy] size(300); defaultpen(linewidth(0.8)); real r = 0.35; path P = (0,0)--(0,1)--(1,1)--(1,0), Q = (1,1)--(1+r,1+r); path Pp = (0,0)--(0,-1)--(1,-1)--(1,0), Qp = (-1,-1)--(-1-r,-1-r); for(int i=0;i <= 4;i=i+1) { draw(shift((4*i,0)) * P); draw(shift((4*i,0)) * Q); } for(int i=1;i <= 4;i=i+1) { draw(shift((4*i-2,0)) * Pp); draw(shift((4*i-1,0)) * Qp); } draw((-1,0)--(18.5,0),Arrows(TeXHead)); [/asy]\nHow many of the following four kinds of rigid motion transformations of the plane in which this figure is drawn, other than the identity transformation, will transform this figure into itself?\n\nsome rotation around a point of line $\\ell$\nsome translation in the direction parallel to line $\\ell$\nthe reflection across line $\\ell$\nsome reflection across a line perpendicular to line $\\ell$",
+        "answer": "3",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 5699,
+        "prompt": "When the numbers \\(\\sqrt{5}, 2.1, \\frac{7}{3}, 2.0 \\overline{5}, 2 \\frac{1}{5}\\) are arranged in order from smallest to largest, the middle number is:",
+        "answer": "E",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 5827,
+        "prompt": "How many natural five-digit numbers have the product of their digits equal to 2000?",
+        "answer": "20",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 5891,
+        "prompt": "In the diagram, $\\angle PQR = 90^\\circ$. A line PS bisects $\\angle PQR$, and $\\angle PQS = y^\\circ$. If $\\angle SQR = 2x^\\circ$ and $\\angle PQS = 2y^\\circ$, what is the value of $x + y$?\n\n[asy]\nsize(100);\ndraw((0,1)--(0,0)--(1,0));\ndraw((0,0)--(.9,.47));\ndraw((0,.1)--(.1,.1)--(.1,0));\nlabel(\"$P$\",(0,1),N); label(\"$Q$\",(0,0),SW); label(\"$R$\",(1,0),E); label(\"$S$\",(.9,.47),NE);\n\nlabel(\"$2y^\\circ$\",(0.15,.2)); label(\"$2x^\\circ$\",(.32,-.02),N);\n\n[/asy]",
+        "answer": "67.5",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 6019,
+        "prompt": "Let $f(x) = \\cos(x + \\theta) + \\sqrt{2}\\sin(x + \\phi)$ be an even function, where $\\theta$ and $\\phi$ are acute angles, and $\\cos\\theta = \\frac{\\sqrt{6}}{3}\\sin\\phi$. Then, evaluate the value of $\\theta + \\phi$.",
+        "answer": "\\frac{\\pi}{2}",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 6211,
+        "prompt": "Given the function $f(x) = \\sin x \\cos x - \\sqrt{3} \\cos (x+\\pi) \\cos x, x \\in \\mathbb{R}$.\n(\u2160) Find the minimal positive period of $f(x)$;\n(\u2161) If the graph of the function $y = f(x)$ is translated by $\\overrightarrow{b}=\\left( \\frac{\\pi}{4}, \\frac{\\sqrt{3}}{2} \\right)$ to obtain the graph of the function $y = g(x)$, find the maximum value of $y=g(x)$ on the interval $\\left[0, \\frac{\\pi}{4}\\right]$.",
+        "answer": "1+\\sqrt{3}",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 6467,
+        "prompt": "A machine-shop cutting tool has the shape of a notched circle, as shown. The radius of the circle is $\\sqrt{50}$ cm, the length of $AB$ is $6$ cm and that of $BC$ is $2$ cm. The angle $ABC$ is a right angle. Find the square of the distance (in centimeters) from $B$ to the center of the circle.\n[asy] size(150); defaultpen(linewidth(0.6)+fontsize(11)); real r=10; pair O=(0,0), A=r*dir(45),B=(A.x,A.y-r); path P=circle(O,r); pair C=intersectionpoint(B--(B.x+r,B.y),P); // Drawing arc instead of full circle //draw(P); draw(arc(O, r, degrees(A), degrees(C))); draw(C--B--A--B); dot(A); dot(B); dot(C); label(\"$A$\",A,NE); label(\"$B$\",B,S); label(\"$C$\",C,SE); [/asy]",
+        "answer": "50",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 6595,
+        "prompt": "What is the median of the following list of numbers that includes integers from $1$ to $2020$, their squares, and their cubes? \\[1, 2, 3, \\ldots, 2020, 1^2, 2^2, \\ldots, 2020^2, 1^3, 2^3, \\ldots, 2020^3\\]\nA) $2040200$ \nB) $2040201$\nC) $2040202$\nD) $2040203$\nE) $2040204$",
+        "answer": "2040202",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 6659,
+        "prompt": "$M$ is an $8 \\times 8$ matrix. For $1 \\leq i \\leq 8$, all entries in row $i$ are at least $i$, and all entries on column $i$ are at least $i$. What is the minimum possible sum of the entries of $M$ ?",
+        "answer": "364",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 6851,
+        "prompt": "Calculate the sum $C_{3}^{2}+C_{4}^{2}+C_{5}^{2}+\\ldots+C_{19}^{2}$.",
+        "answer": "1140",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 7299,
+        "prompt": "If $a+b=1$, find the supremum of $$- \\frac {1}{2a}- \\frac {2}{b}.$$",
+        "answer": "-\\infty",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 7363,
+        "prompt": "Consider the polynomials $P(x) = x^{6} - x^{5} - x^{3} - x^{2} - x$ and $Q(x) = x^{4} - x^{3} - x^{2} - 1.$ Given that $z_{1},z_{2},z_{3},$ and $z_{4}$ are the roots of $Q(x) = 0,$ find $P(z_{1}) + P(z_{2}) + P(z_{3}) + P(z_{4}).$",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 708,
+        "prompt": "If $b$ men take $c$ days to lay $f$ bricks, then the number of days it will take $c$ men working at the same rate to lay $b$ bricks, is",
+        "answer": "D",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 1732,
+        "prompt": "For non-negative integers \\( x \\), the function \\( f(x) \\) is defined as follows:\n$$\nf(0) = 0, \\quad f(x) = f\\left(\\left\\lfloor \\frac{x}{10} \\right\\rfloor\\right) + \\left\\lfloor \\log_{10} \\left( \\frac{10}{x - 10\\left\\lfloor \\frac{x-1}{10} \\right\\rfloor} \\right) \\right\\rfloor .\n$$\nFor \\( 0 \\leqslant x \\leqslant 2006 \\), what is the value of \\( x \\) that maximizes \\( f(x) \\)?",
+        "answer": "1999",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 2372,
+        "prompt": "Given an arithmetic sequence $\\{a\\_n\\}$ with a common ratio $q > 1$, and it satisfies: $a\\_2 + a\\_3 + a\\_4 = 28$, and $a\\_3 + 2$ is the arithmetic mean of $a\\_2$ and $a\\_4$.\n(1) Find the general term formula of the sequence $\\{a\\_n\\}$;\n(2) If $b\\_n = a\\_n \\log\\_{ \\frac {1}{2}}a\\_n$, $S\\_n = b\\_1 + b\\_2 + \u2026 + b\\_n$, find the smallest positive integer $n$ such that $S\\_n + n \\cdot 2^{n+1} > 62$.",
+        "answer": "5",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 2500,
+        "prompt": "When the two-digit integer $MM$, with equal digits, is multiplied by the one-digit integer $M$, the result is the three-digit integer $NPM$. What is the greatest possible value of $NPM$?",
+        "answer": "891",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 2628,
+        "prompt": "What is the value of $a^3 - b^3$ given that $a+b=12$ and $ab=20$?",
+        "answer": "-992",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 3140,
+        "prompt": "Compute the remainder when 10002000400080016003200640128025605121024204840968192 is divided by 100020004000800160032.",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    },
+    {
+        "id": 3524,
+        "prompt": "Alice and the Cheshire Cat play a game. At each step, Alice either (1) gives the cat a penny, which causes the cat to change the number of (magic) beans that Alice has from $n$ to $5n$ or (2) gives the cat a nickel, which causes the cat to give Alice another bean. Alice wins (and the cat disappears) as soon as the number of beans Alice has is greater than 2008 and has last two digits 42. What is the minimum number of cents Alice can spend to win the game, assuming she starts with 0 beans?",
+        "answer": "41",
+        "source": "deepscaler_mv_labeled_qwen2.5_7b_incorrect"
+    }
+]

@@ -1,0 +1,602 @@
+[
+    {
+        "id": 0,
+        "prompt": "In the diagram, \\(p, q, r, s\\), and \\(t\\) represent five consecutive integers, not necessarily in order. The two integers in the leftmost circle add to 63. The two integers in the rightmost circle add to 57. What is the value of \\(r\\)?",
+        "answer": "33",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 64,
+        "prompt": "Given the integers \\( 1, 2, 3, \\ldots, 40 \\), find the greatest possible sum of the positive differences between the integers in twenty pairs, where the positive difference is either 1 or 3.",
+        "answer": "3",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 128,
+        "prompt": "How many nonempty subsets of $\\{1,2,3, \\ldots, 12\\}$ have the property that the sum of the largest element and the smallest element is 13?",
+        "answer": "6",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 192,
+        "prompt": "In what ratio does the point \\( P \\) divide the perpendicular segment dropped from vertex \\( A \\) of a regular tetrahedron \\( ABCD \\) to the face \\( BCD \\), given that the lines \\( PB \\), \\( PC \\), and \\( PD \\) are mutually perpendicular to each other?",
+        "answer": "\\frac{1}{3}",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 256,
+        "prompt": "Find \\( n \\) such that \\( 2^3 \\cdot 5 \\cdot n = 10! \\).",
+        "answer": "90720",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 320,
+        "prompt": "Except for the first two terms, each term of the sequence $2000, y, 2000 - y,\\ldots$ is obtained by subtracting the preceding term from the one before that. The last term of the sequence is the first negative term encountered. What positive integer $y$ produces a sequence of maximum length?",
+        "answer": "1999",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 384,
+        "prompt": "Given a sequence $\\left\\{a_{n}\\right\\}$, where $a_{1}=a_{2}=1$, $a_{3}=-1$, and $a_{n}=a_{n-1} a_{n-3}$, find $a_{1964}$.",
+        "answer": "-1",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 448,
+        "prompt": "Schools A and B are having a sports competition with three events. In each event, the winner gets 10 points and the loser gets 0 points, with no draws. The school with the highest total score after the three events wins the championship. It is known that the probabilities of school A winning in the three events are 0.5, 0.4, and 0.8, respectively, and the results of each event are independent.<br/>$(1)$ Find the probability of school A winning the championship;<br/>$(2)$ Let $X$ represent the total score of school B, find the distribution table and expectation of $X$.",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 512,
+        "prompt": "If two 4'' by 4'' squares are added at each successive stage, what will be the area of the rectangle at Stage 4, in square inches?",
+        "answer": "112",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 576,
+        "prompt": "Sylvia chose positive integers $a, b$ and $c$. Peter determined the value of $a + \\frac{b}{c}$ and got an answer of 101. Paul determined the value of $\\frac{a}{c} + b$ and got an answer of 68. Mary determined the value of $\\frac{a + b}{c}$ and got an answer of $k$. What is the value of $k$?",
+        "answer": "101",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 640,
+        "prompt": "Given a triangle $\\triangle ABC$ with area $S$ and sides $a$, $b$, $c$ that satisfy the equations: $S=a^{2}-(b-c)^{2}$, $b+c=8$, find the maximum value of the area $S$ of $\\triangle ABC$.",
+        "answer": "48",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 704,
+        "prompt": "Given the function $f(x) = |2x+a| + |2x-2b| + 3$  \n(\u2160) If $a=1$, $b=1$, find the solution set of the inequality $f(x) > 8$;  \n(\u2161) When $a>0$, $b>0$, if the minimum value of $f(x)$ is $5$, find the minimum value of $\\frac{1}{a} + \\frac{1}{b}$.",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 768,
+        "prompt": "Given that $\\alpha \\in (-\\frac{\\pi }{2},\\frac{\\pi }{2})$, $\\beta \\in (-\\frac{\\pi }{2},\\frac{\\pi }{2})$, and $\\tan \\alpha$ and $\\tan \\beta$ are the two real roots of the equation $x^{2}+3\\sqrt{3}x+4=0$, find the value of $\\alpha + \\beta$ = \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_.",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 832,
+        "prompt": "Given $sin({\u03b1+\\frac{\u03c0}{4}})=\\frac{{12}}{{13}}$, and $\\frac{\u03c0}{4}\uff1c\u03b1\uff1c\\frac{{3\u03c0}}{4}$, find the value of $\\cos \\alpha$____.",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 896,
+        "prompt": "If $4 \\in \\{a^2-3a, a\\}$, then the value of $a$ equals ____.",
+        "answer": "4",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 960,
+        "prompt": "Given the function $f\\left(x\\right)=x^{2}-2bx+3$, where $b\\in R$.  \n$(1)$ Find the solution set of the inequality $f\\left(x\\right) \\lt 4-b^{2}$.  \n$(2)$ When $x\\in \\left[-1,2\\right]$, the function $y=f\\left(x\\right)$ has a minimum value of $1$. Find the maximum value of the function $y=f\\left(x\\right)$ when $x\\in \\left[-1,2\\right]$.",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 1024,
+        "prompt": "What is the value of $x + y$ if the sequence $2, ~6, ~10, \\ldots, ~x, ~y, ~26$ is an arithmetic sequence?",
+        "answer": "40",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 1088,
+        "prompt": "The positive integers from 1 to 576 are written in a 24 by 24 grid so that the first row contains the numbers 1 to 24, the second row contains the numbers 25 to 48, and so on. An 8 by 8 square is drawn around 64 of these numbers. The sum of the numbers in the four corners of the 8 by 8 square is 1646. What is the number in the bottom right corner of this 8 by 8 square?",
+        "answer": "23",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 1152,
+        "prompt": "What is the sum of all two-digit positive integers whose squares end with the digits 25?",
+        "answer": "100",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 1216,
+        "prompt": "Given a fixed circle $\\odot P$ with a radius of 1, the distance from the center $P$ to a fixed line $l$ is 2. Point $Q$ is a moving point on $l$, and circle $\\odot Q$ is externally tangent to circle $\\odot P$. Circle $\\odot Q$ intersects $l$ at points $M$ and $N$. For any diameter $MN$, there is always a fixed point $A$ on the plane such that the angle $\\angle MAN$ is a constant value. Find the degree measure of $\\angle MAN$.",
+        "answer": "60",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 1280,
+        "prompt": "The germination rate of cotton seeds is $0.9$, and the probability of developing into strong seedlings is $0.6$,\n\n$(1)$ If two seeds are sown per hole, the probability of missing seedlings in this hole is _______; the probability of having no strong seedlings in this hole is _______.\n\n$(2)$ If three seeds are sown per hole, the probability of having seedlings in this hole is _______; the probability of having strong seedlings in this hole is _______.",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 1344,
+        "prompt": "It is known that \\( x = 2a^{5} = 5b^{2} > 0 \\), where \\( a \\) and \\( b \\) are integers. What is the smallest possible value of \\( x \\)?",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 1408,
+        "prompt": "Given that $F_1$ and $F_2$ are the two foci of the hyperbola $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$ ($a>0$, $b>0$), an isosceles right triangle $MF_1F_2$ is constructed with $F_1$ as the right-angle vertex. If the midpoint of the side $MF_1$ lies on the hyperbola, calculate the eccentricity of the hyperbola.",
+        "answer": "\\sqrt{2}",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 1472,
+        "prompt": "Two teams, Team A and Team B, are playing in a basketball finals series that uses a \"best of seven\" format (the first team to win four games wins the series and the finals end). Based on previous game results, Team A's home and away schedule is arranged as \"home, home, away, away, home, away, home\". The probability of Team A winning at home is 0.6, and the probability of winning away is 0.5. The results of each game are independent of each other. Calculate the probability that Team A wins the series with a 4:1 score.",
+        "answer": "5",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 1536,
+        "prompt": "A root of unity is a complex number that is a solution to $z^n = 1$ for some positive integer $n$. Determine the number of roots of unity that are also roots of $z^2 + az + b = 0$ for some integers $a$ and $b$.",
+        "answer": "8",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 1600,
+        "prompt": "Shift the graph of the function $f(x)=2\\sin(2x+\\frac{\\pi}{6})$ to the left by $\\frac{\\pi}{12}$ units, and then shift it upwards by 1 unit to obtain the graph of $g(x)$. If $g(x_1)g(x_2)=9$, and $x_1, x_2 \\in [-2\\pi, 2\\pi]$, then find the maximum value of $2x_1-x_2$.",
+        "answer": "4",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 1664,
+        "prompt": "Numbers from 1 to 100 are written in a vertical row in ascending order. Fraction bars of different sizes are inserted between them. The calculation starts with the smallest fraction bar and ends with the largest one, for example, $\\frac{1}{\\frac{5}{3}}=\\frac{15}{4}$. What is the greatest possible value that the resulting fraction can have?",
+        "answer": "3",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 1728,
+        "prompt": "Determine the smallest integer $B$ such that there exist several consecutive integers, including $B$, that add up to 2024.",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 1792,
+        "prompt": "In our daily life, we often use passwords, such as when making payments through Alipay. There is a type of password generated using the \"factorization\" method, which is easy to remember. The principle is to factorize a polynomial. For example, the polynomial $x^{3}+2x^{2}-x-2$ can be factorized as $\\left(x-1\\right)\\left(x+1\\right)\\left(x+2\\right)$. When $x=29$, $x-1=28$, $x+1=30$, $x+2=31$, and the numerical password obtained is $283031$.<br/>$(1)$ According to the above method, when $x=15$ and $y=5$, for the polynomial $x^{3}-xy^{2}$, after factorization, what numerical passwords can be formed?<br/>$(2)$ Given a right-angled triangle with a perimeter of $24$, a hypotenuse of $11$, and the two legs being $x$ and $y$, find a numerical password obtained by factorizing the polynomial $x^{3}y+xy^{3}$ (only one is needed).",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 1856,
+        "prompt": "If \\( a^3 + b^3 + c^3 = 3abc = 6 \\) and \\( a^2 + b^2 + c^2 = 8 \\), find the value of \\( \\frac{ab}{a+b} + \\frac{bc}{b+c} + \\frac{ca}{c+a} \\).",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 1920,
+        "prompt": "What is the smallest positive multiple of $17$ that is $3$ more than a multiple of $76$?",
+        "answer": "969",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 1984,
+        "prompt": "Given the number 2550, calculate the sum of its prime factors.",
+        "answer": "32",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 2048,
+        "prompt": "The postal department stipulates that for letters weighing up to $100$ grams (including $100$ grams), each $20$ grams requires a postage stamp of $0.8$ yuan. If the weight is less than $20$ grams, it is rounded up to $20$ grams. For weights exceeding $100$ grams, the initial postage is $4$ yuan. For each additional $100$ grams beyond $100$ grams, an extra postage of $2$ yuan is required. In Class 8 (9), there are $11$ students participating in a project to learn chemistry knowledge. If each answer sheet weighs $12$ grams and each envelope weighs $4$ grams, and these $11$ answer sheets are divided into two envelopes for mailing, the minimum total amount of postage required is ____ yuan.",
+        "answer": "10",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 2112,
+        "prompt": "Find all integers $n$ for which $\\frac{n^{3}+8}{n^{2}-4}$ is an integer.",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 2176,
+        "prompt": "Let $[a]$ represent the greatest integer less than or equal to $a$. Determine the largest positive integer solution to the equation $\\left[\\frac{x}{7}\\right]=\\left[\\frac{x}{8}\\right]+1$.",
+        "answer": "56",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 2240,
+        "prompt": "In $\\triangle ABC$, the sides corresponding to the internal angles $A$, $B$, and $C$ are $a$, $b$, and $c$, respectively. Given that $b = a \\sin C + c \\cos A$,\n\n(1) Find the value of $A + B$;\n\n(2) If $c = \\sqrt{2}$, find the maximum area of $\\triangle ABC$.",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 2304,
+        "prompt": "Find \\(\\lim _{x \\rightarrow -1} \\frac{3 x^{4} + 2 x^{3} - x^{2} + 5 x + 5}{x^{3} + 1}\\).",
+        "answer": "\\frac{1}{3}",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 2368,
+        "prompt": "From vertex  $A$  of an equilateral triangle  $ABC$ , a ray  $Ax$  intersects  $BC$  at point  $D$ . Let  $E$  be a point on  $Ax$  such that  $BA =BE$ . Calculate  $\\angle AEC$ .",
+        "answer": "60",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 2432,
+        "prompt": "\nWe want to set up an electric bell. The location of the bell is at a distance of $30 \\mathrm{~m}$ from the ringing spot. The internal resistance of the bell is 2 ohms. We plan to use 2 Leclanch\u00e9 cells connected in series, each with an electromotive force of 1.5 Volts and an internal resistance of 1 ohm. What diameter of copper wire conductor can we use, if the bell will only operate reliably if at least 0.4 amperes flow through it? The resistance of 1 meter of copper wire with a cross-sectional area of $1 \\mathrm{~mm}^{2}$ is $\\frac{1}{55} \\mathrm{ohm}$.",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 2496,
+        "prompt": "The function \\( y = \\tan(2015x) - \\tan(2016x) + \\tan(2017x) \\) has how many zeros in the interval \\([0, \\pi]\\)?",
+        "answer": "1008",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 2560,
+        "prompt": "Let $T$ be the set of all rational numbers $r$, $0<r<1$, that have a repeating decimal expansion in the form $0.efghefgh\\ldots=0.\\overline{efgh}$, where the digits $e$, $f$, $g$, and $h$ are not necessarily distinct. To write the elements of $T$ as fractions in lowest terms, how many different numerators are required?",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 2624,
+        "prompt": "The highest power of 2 that is a factor of \\(15.13^{4} - 11^{4}\\) needs to be determined.",
+        "answer": "4",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 2688,
+        "prompt": "David, Delong, and Justin each showed up to a problem writing session at a random time during the session. If David arrived before Delong, what is the probability that he also arrived before Justin?",
+        "answer": "\\frac{1}{2}",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 2752,
+        "prompt": "Starting with the display \"1,\" calculate the fewest number of keystrokes needed to reach \"240\" using only the keys [+1] and [x2].",
+        "answer": "7",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 2816,
+        "prompt": "Let \\( u, v, w \\) be positive real numbers, all different from 1. If\n\\[\n\\log_{u}(vw) + \\log_{v}(w) = 5 \\quad \\text{and} \\quad \\log_{v}(u) + \\log_{w}(v) = 3,\n\\]\nfind the value of \\( \\log_{w}(u) \\).",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 2880,
+        "prompt": "The function $f(x) = |\\log_3 x|$ has a range of $[0,1]$ on the interval $[a, b]$. Find the minimum value of $b - a$.",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 2944,
+        "prompt": "At a family outing to a theme park, the Thomas family, comprising three generations, plans to purchase tickets. The two youngest members, categorized as children, get a 40% discount. The two oldest members, recognized as seniors, enjoy a 30% discount. The middle generation no longer enjoys any discount. Grandmother Thomas, whose senior ticket costs \\$7.50, has taken the responsibility to pay for everyone. Calculate the total amount Grandmother Thomas must pay.\nA) $46.00$\nB) $47.88$\nC) $49.27$\nD) $51.36$\nE) $53.14$",
+        "answer": "47.88",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 3008,
+        "prompt": "Five friends sat in a movie theater in a row containing $5$ seats, numbered $1$ to $5$ from left to right. (The directions \"left\" and \"right\" are from the point of view of the people as they sit in the seats.) During the movie Ada went to the lobby to get some popcorn. When she returned, she found that Bea had moved two seats to the right, Ceci had moved one seat to the left, and Dee and Edie had switched seats, leaving an end seat for Ada. In which seat had Ada been sitting before she got up?",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 3072,
+        "prompt": "During the 2013 National Day, a city organized a large-scale group calisthenics performance involving 2013 participants, all of whom were students from the third, fourth, and fifth grades. The students wore entirely red, white, or blue sports uniforms. It was known that the fourth grade had 600 students, the fifth grade had 800 students, and there were a total of 800 students wearing white sports uniforms across all three grades. There were 200 students each wearing red or blue sports uniforms in the third grade, red sports uniforms in the fourth grade, and white sports uniforms in the fifth grade. How many students in the fourth grade wore blue sports uniforms?",
+        "answer": "200",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 3136,
+        "prompt": "Let $\\triangle ABC$ have side lengths $AB = 12$, $AC = 16$, and $BC = 20$. Inside $\\angle BAC$, two circles are positioned, each tangent to rays $\\overline{AB}$ and $\\overline{AC}$, and the segment $\\overline{BC}$. Compute the distance between the centers of these two circles.",
+        "answer": "8",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 3200,
+        "prompt": "Given the function $f(x)=x\\ln x-x$, find the monotonic intervals and the extreme values of the function $f(x)$.",
+        "answer": "-1",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 3264,
+        "prompt": "Let \\( S = \\{1, 2, \\cdots, 2016\\} \\). For any non-empty finite sets of real numbers \\( A \\) and \\( B \\), find the minimum value of\n\\[ f = |A \\Delta S| + |B \\Delta S| + |C \\Delta S| \\]\nwhere\n\\[ X \\Delta Y = \\{a \\in X \\mid a \\notin Y\\} \\cup \\{a \\in Y \\mid a \\notin X\\} \\]\nis the symmetric difference between sets \\( X \\) and \\( Y \\), and\n\\[ C = \\{a + b \\mid a \\in A, b \\in B\\} .\\]",
+        "answer": "2016",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 3328,
+        "prompt": "A prism is constructed so that its vertical edges are parallel to the $z$-axis.  Its cross-section is a square of side length 10.\n\n[asy]\nimport three;\n\nsize(180);\ncurrentprojection = perspective(6,3,2);\n\ntriple A, B, C, D, E, F, G, H;\n\nA = (1,1,0);\nB = (1,-1,0);\nC = (-1,-1,0);\nD = (-1,1,0);\nE = A + (0,0,1);\nF = B + (0,0,3);\nG = C + (0,0,4);\nH = D + (0,0,2);\n\ndraw(surface(E--F--G--H--cycle),gray(0.7),nolight);\ndraw(E--F--G--H--cycle);\ndraw(A--E);\ndraw(B--F);\ndraw(C--G,dashed);\ndraw(D--H);\ndraw(B--A--D);\ndraw(B--C--D,dashed);\n[/asy]\n\nThe prism is then cut by the plane $4x - 7y + 4z = 25.$  Find the maximal area of the cross-section.",
+        "answer": "300",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 3392,
+        "prompt": "Vasya loves picking mushrooms. He calculated that during the autumn, he collected a three-digit number of mushrooms with the sum of its digits equal to 14. Then Vasya calculated that 8% of the mushrooms were white, and 14% were boletus. How many mushrooms did Vasya collect?",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 3456,
+        "prompt": "The caf\u00e9 \"Buratino\" operates 6 days a week with Mondays off. Kolya said that from April 1 to April 20, the caf\u00e9 was open for 17 days, and from April 10 to April 30, it was open for 18 days. It is known that he made a mistake once. What was the date of the last Tuesday in April?",
+        "answer": "25",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 3520,
+        "prompt": "Let $b$ and $c$ be real numbers. If the polynomial $x^3 + bx^2 + cx + d$ has exactly one real root and $d = c + b + 1$, find the value of the product of all possible values of $c$.",
+        "answer": "-1",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 3584,
+        "prompt": "For how many integer values of $a$ does the equation $$x^2 + ax + 12a = 0$$ have integer solutions for $x$?",
+        "answer": "16",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 3648,
+        "prompt": "In the quadrilateral  $ABCD$ ,  $AB = BC = CD$  and  $\\angle BMC = 90^\\circ$ , where  $M$  is the midpoint of  $AD$ . Determine the acute angle between the lines  $AC$  and  $BD$ .",
+        "answer": "45",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 3712,
+        "prompt": "Carmen takes a long bike ride on a hilly highway. The graph indicates the miles traveled during the time of her ride. What is Carmen's average speed for her entire ride in miles per hour?",
+        "answer": "6",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 3776,
+        "prompt": "Given that positive real numbers $a$ and $b$ satisfy $a \\gt b$ and $ab=\\frac{1}{2}$, find the minimum value of $\\frac{4{a}^{2}+{b}^{2}+3}{2a-b}$.",
+        "answer": "11",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 3840,
+        "prompt": "As a result of measuring the four sides and one of the diagonals of a certain quadrilateral, the following numbers were obtained: $1 ; 2 ; 2.8 ; 5 ; 7.5$. What is the length of the measured diagonal?",
+        "answer": "7.5",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 3904,
+        "prompt": "In a joint maritime search and rescue exercise between China and foreign countries, the Chinese side participated with 4 ships and 3 airplanes; the foreign side with 5 ships and 2 airplanes. If 2 units are selected from each group (either 1 airplane or 1 ship counts as one unit, and all ships and airplanes are distinct), and among the four selected units exactly one is an airplane, the total number of different selection methods is ___.",
+        "answer": "120",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 3968,
+        "prompt": "Find the smallest natural number \\( n \\) such that both \\( n^2 \\) and \\( (n+1)^2 \\) contain the digit 7.",
+        "answer": "7",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 4032,
+        "prompt": "In triangle \\(ABC\\), side \\(AB\\) is 21, the bisector \\(BD\\) is \\(8 \\sqrt{7}\\), and \\(DC\\) is 8. Find the perimeter of the triangle \\(ABC\\).",
+        "answer": "29+11\\sqrt{7}",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 4096,
+        "prompt": "Find all pairs $(x,y)$ of nonnegative integers that satisfy \\[x^3y+x+y=xy+2xy^2.\\]",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 4160,
+        "prompt": "In the given configuration, triangle $ABC$ has a right angle at $C$, with $AC=4$ and $BC=3$. Triangle $ABE$ has a right angle at $A$ where $AE=5$. The line through $E$ parallel to $\\overline{AC}$ meets $\\overline{BC}$ extended at $D$. Calculate the ratio $\\frac{ED}{EB}$.",
+        "answer": "\\frac{4}{5}",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 4224,
+        "prompt": "The sum of all of the digits of the integers from 1 to 2008 is:",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 4288,
+        "prompt": "Arrange 1, 2, 3, a, b, c in a row such that letter 'a' is not at either end and among the three numbers, exactly two are adjacent. The probability is $\\_\\_\\_\\_\\_\\_$.",
+        "answer": "\\frac{1}{15}",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 4352,
+        "prompt": "For certain real values of $a, b, c,$ and $d,$ the equation $x^4+ax^3+bx^2+cx+d=0$ has four non-real roots. The product of two of these roots is $7-3i$ and the sum of the other two roots is $5-2i,$ where $i^2 = -1.$ Find $b.$",
+        "answer": "77",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 4416,
+        "prompt": "Alli rolls a standard $8$-sided die twice. What is the probability of rolling integers that differ by $3$ on her first two rolls? Express your answer as a common fraction.",
+        "answer": "\\frac{1}{8}",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 4480,
+        "prompt": "Let $S$ be the set of all nondegenerate triangles formed from the vertices of a regular octagon with side length 1. Find the ratio of the largest area of any triangle in $S$ to the smallest area of any triangle in $S$.",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 4544,
+        "prompt": "In the isosceles trapezoid \\(ABCD\\), the bases \\(AD\\) and \\(BC\\) are related by the equation \\(AD = (1 + \\sqrt{15}) BC\\). A circle is constructed with its center at point \\(C\\) and radius \\(\\frac{2}{3} BC\\), which cuts a chord \\(EF\\) on the base \\(AD\\) of length \\(\\frac{\\sqrt{7}}{3} BC\\). In what ratio does the circle divide side \\(CD\\)?",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 4608,
+        "prompt": "In the Cartesian coordinate system, given the set of points $I=\\{(x, y) \\mid x$ and $y$ are integers, and $0 \\leq x \\leq 5,0 \\leq y \\leq 5\\}$, find the number of distinct squares that can be formed with vertices from the set $I$.",
+        "answer": "36",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 4672,
+        "prompt": "The witch Gingema cast a spell on a wall clock so that the minute hand moves in the correct direction for five minutes, then three minutes in the opposite direction, then five minutes in the correct direction again, and so on. How many minutes will the hand show after 2022 minutes, given that it pointed exactly to 12 o'clock at the beginning of the five-minute interval of correct movement?",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 4736,
+        "prompt": "For all positive integers  $m>10^{2022}$ , determine the maximum number of real solutions  $x>0$  of the equation  $mx=\\lfloor x^{11/10}\\rfloor$ .",
+        "answer": "2023",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 4800,
+        "prompt": "What is the largest number of digits that can be erased from the 1000-digit number 201820182018....2018 so that the sum of the remaining digits is 2018?",
+        "answer": "4",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 4864,
+        "prompt": "Compute the sum of the squares of cosine for the angles progressing by 10 degrees starting from 0 degrees up to 180 degrees:\n\\[\\cos^2 0^\\circ + \\cos^2 10^\\circ + \\cos^2 20^\\circ + \\dots + \\cos^2 180^\\circ.\\]",
+        "answer": "\\frac{91}{2}",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 4928,
+        "prompt": "Let $A B C$ be a right triangle with $\\angle A=90^{\\circ}$. Let $D$ be the midpoint of $A B$ and let $E$ be a point on segment $A C$ such that $A D=A E$. Let $B E$ meet $C D$ at $F$. If $\\angle B F C=135^{\\circ}$, determine $B C / A B$.",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 4992,
+        "prompt": "The vertical drops of six roller coasters at Fractal Fun Park are listed in the table below:\n\\begin{tabular}{|l|c|}\n\\hline\nThe Spiral Slide & 173 feet \\\\\n\\hline\nThe Velocity Vortex & 125 feet \\\\\n\\hline\nThe Cyclone & 150 feet \\\\\n\\hline\nThe Apex Jump & 310 feet \\\\\n\\hline\nThe Quantum Leap & 205 feet \\\\\n\\hline\nThe Zero Gravity & 180 feet \\\\\n\\hline\n\\end{tabular}\nWhat is the positive difference between the mean and the median of these values?",
+        "answer": "4",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 5056,
+        "prompt": "Let the set \\( \\mathrm{S} = \\{1, 2, 3, \\ldots, 10\\} \\). The subset \\( \\mathrm{A} \\) of \\( \\mathrm{S} \\) satisfies \\( \\mathrm{A} \\cap \\{1, 2, 3\\} \\neq \\emptyset \\) and \\( \\mathrm{A} \\cup \\{4, 5, 6\\} \\neq \\mathrm{S} \\). Find the number of such subsets \\( \\mathrm{A} \\).",
+        "answer": "512",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 5120,
+        "prompt": "Reading material: After studying square roots, Kang Kang found that some expressions containing square roots can be written as the square of another expression, such as $3+2\\sqrt{2}=({1+\\sqrt{2}})^2$. With his good thinking skills, Kang Kang made the following exploration: Let $a+b\\sqrt{2}=({m+n\\sqrt{2}})^2$ (where $a$, $b$, $m$, $n$ are all positive integers), then $a+b\\sqrt{2}=m^2+2n^2+2mn\\sqrt{2}$ (rational and irrational numbers correspondingly equal), therefore $a=m^{2}+2n^{2}$, $b=2mn$. In this way, Kang Kang found a method to transform the expression $a+b\\sqrt{2}$ into a square form. Please follow Kang Kang's method to explore and solve the following problems:  \n$(1)$ When $a$, $b$, $m$, $n$ are all positive integers, if $a+b\\sqrt{3}=({c+d\\sqrt{3}})^2$, express $a$ and $b$ in terms of $c$ and $d$: $a=$______, $b=$______;  \n$(2)$ If $7-4\\sqrt{3}=({e-f\\sqrt{3}})^2$, and $e$, $f$ are both positive integers, simplify $7-4\\sqrt{3}$;  \n$(3)$ Simplify: $\\sqrt{7+\\sqrt{21-\\sqrt{80}}}$.",
+        "answer": "3",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 5184,
+        "prompt": "Given a triangle $ABC$ with the sides opposite to angles $A$, $B$, $C$ denoted by $a$, $b$, $c$ respectively, let vectors $\\overrightarrow{m}=(1-\\cos(A+B), \\cos \\frac{A-B}{2})$ and $\\overrightarrow{n}=(\\frac{5}{8}, \\cos \\frac{A-B}{2})$, and it's known that $\\overrightarrow{m} \\cdot \\overrightarrow{n} = \\frac{9}{8}$.\n1. Find the value of $\\tan A \\cdot \\tan B$.\n2. Find the maximum value of $\\frac{a b \\sin C}{a^2 + b^2 - c^2}$.",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 5248,
+        "prompt": "Given that $a$, $b$, and $c$ are integers, and $a-2b=4$, $ab+c^2-1=0$, find the value of $a+b+c$.",
+        "answer": "5",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 5312,
+        "prompt": "Suppose there are 3 counterfeit coins of equal weight mixed with 12 genuine coins. All counterfeit coins weigh differently from the genuine coins. A pair of coins is selected at random without replacement from the 15 coins, followed by selecting a second pair from the remaining 13 coins. The combined weight of the first pair equals the combined weight of the second pair. What is the probability that all four coins selected are genuine?\nA) $\\frac{7}{11}$\nB) $\\frac{9}{13}$\nC) $\\frac{11}{15}$\nD) $\\frac{15}{19}$\nE) $\\frac{15}{16}$",
+        "answer": "\\frac{9}{13}",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 5376,
+        "prompt": "Andrea flips a fair coin repeatedly, continuing until she either flips two heads in a row (the sequence $H H$ ) or flips tails followed by heads (the sequence $T H$ ). What is the probability that she will stop after flipping $H H$ ?",
+        "answer": "5",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 5440,
+        "prompt": "The denominator of a geometric progression \\( b_{n} \\) is \\( q \\), and for some natural \\( n \\geq 2 \\),\n\n$$\n\\log_{4} b_{2}+\\log_{4} b_{3}+\\ldots+\\log_{4} b_{n}=4 \\cdot \\log_{4} b_{1}\n$$\n\nFind the smallest possible value of \\( \\log_{q} b_{1}^{2} \\), given that it is an integer. For which \\( n \\) is this value achieved?",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 5504,
+        "prompt": "Given squares $ABCD$ and $EFGH$ are congruent, $AB=12$, and $H$ is located at vertex $D$ of square $ABCD$. Calculate the total area of the region in the plane covered by these squares.",
+        "answer": "288",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 5568,
+        "prompt": "Given that a certain basketball player has a 50% chance of making each shot, we use a random simulation method to estimate the probability that the player makes exactly two out of four shots: First, we generate a random integer between 0 and 9 using a calculator, where 0, 1, 2, 3, and 4 represent a successful shot, and 5, 6, 7, 8, and 9 represent a missed shot; then, we group every four random numbers to represent the results of four shots. After conducting the random simulation, 20 groups of random numbers are generated:  \n9075    9660    1918    9257     2716     9325     8121     4589    5690     6832  \n4315    2573    3937    9279     5563     4882     7358     1135    1587     4989  \nBased on this, estimate the probability that the athlete makes exactly two out of four shots.",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 5632,
+        "prompt": "Given that spinner A contains the numbers 4, 5, 6, spinner B contains the numbers 1, 2, 3, 4, 5, and spinner C can take numbers from the set 7, 8, 9 if spinner B lands on an odd number and the set {6, 8} if spinner B lands on an even number, find the probability that the sum of the numbers resulting from the rotation of spinners A, B, and C is an odd number.",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 5696,
+        "prompt": "Let $c$ and $d$ be constants. Suppose that the equation \\[\\frac{(x+c)(x+d)(x-7)}{(x+4)^2} = 0\\] has exactly $3$ distinct roots, while the equation \\[\\frac{(x+2c)(x+5)(x+8)}{(x+d)(x-7)} = 0\\] has exactly $1$ distinct root. Compute $100c + d.$",
+        "answer": "205",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 5760,
+        "prompt": "There are 5 people seated at a circular table. What is the probability that Angie and Carlos are seated directly opposite each other?",
+        "answer": "\\frac{1}{2}",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 5824,
+        "prompt": "Compute $$2 \\sqrt{2 \\sqrt[3]{2 \\sqrt[4]{2 \\sqrt[5]{2 \\cdots}}}}$$",
+        "answer": "4",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 5888,
+        "prompt": "Given $\\cos\\left(\\alpha + \\frac{\\pi}{6}\\right) = \\frac{1}{3}$, where $\\alpha$ is in the interval $\\left(0, \\frac{\\pi}{2}\\right)$, find the values of $\\sin\\alpha$ and $\\sin\\left(2\\alpha + \\frac{5\\pi}{6}\\right)$.",
+        "answer": "6",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 5952,
+        "prompt": "Let \\( a_{1}, a_{2}, \\cdots, a_{105} \\) be a permutation of \\( 1, 2, \\cdots, 105 \\), satisfying the condition that for any \\( m \\in \\{3, 5, 7\\} \\), for all \\( n \\) such that \\( 1 \\leqslant n < n+m \\leqslant 105 \\), we have \\( m \\mid (a_{n+m}-a_{n}) \\). How many such distinct permutations exist? (Provide the answer as a specific number).",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 6016,
+        "prompt": "If the centroid of the inscribed triangle \\( ABC \\) of the curve \\( y^{2}=4 \\sqrt{2} x \\) is its focus \\( F \\), then\n\\[ |FA|^{2} + |FB|^{2} + |FC|^{2} = \\]",
+        "answer": "12",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 6080,
+        "prompt": "Let $O$ be the origin, the parabola $C_{1}$: $y^{2}=2px\\left(p \\gt 0\\right)$ and the hyperbola $C_{2}$: $\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1\\left(a \\gt 0,b \\gt 0\\right)$ have a common focus $F$. The line passing through $F$ and perpendicular to the $x$-axis intersects $C_{1}$ at points $A$ and $B$, and intersects $C_{2}$ in the first quadrant at point $M$. If $\\overrightarrow{OM}=m\\overrightarrow{OA}+n\\overrightarrow{OB}\\left(m,n\\in R\\right)$ and $mn=\\frac{1}{8}$, find the eccentricity of the hyperbola $C_{2}$.",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 6144,
+        "prompt": "There are two boxes, A and B, each containing four cards labeled with the numbers 1, 2, 3, and 4. One card is drawn from each box, and each card is equally likely to be chosen;\n(I) Find the probability that the product of the numbers on the two cards drawn is divisible by 3;\n(II) Suppose that Xiao Wang and Xiao Li draw two cards, and the person whose sum of the numbers on the two cards is greater wins. If Xiao Wang goes first and draws cards numbered 3 and 4, and the cards drawn by Xiao Wang are not returned to the boxes, Xiao Li draws next; find the probability that Xiao Wang wins.",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 6208,
+        "prompt": "If $\\log_3 (x+5)^2 + \\log_{1/3} (x - 1) = 4,$ compute $x.$",
+        "answer": "69",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 6272,
+        "prompt": "Given the function $f(x)=e^{x}(x^{3}-3x+3)-ae^{x}-x$, where $e$ is the base of the natural logarithm, find the minimum value of the real number $a$ such that the inequality $f(x)\\leqslant 0$ has solutions in the interval $x\\in\\[-2,+\\infty)$.",
+        "answer": "3",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    },
+    {
+        "id": 6336,
+        "prompt": "A quadrilateral that has consecutive sides of lengths $70,90,130$ and $110$ is inscribed in a circle and also has a circle inscribed in it. The point of tangency of the inscribed circle to the side of length 130 divides that side into segments of length $x$ and $y$. Find $|x-y|$.\n$\\text{(A) } 12\\quad \\text{(B) } 13\\quad \\text{(C) } 14\\quad \\text{(D) } 15\\quad \\text{(E) } 16$\n",
+        "answer": "13",
+        "source": "deepscaler_mv_labeled_llama3.1_8b_instruct"
+    }
+]

@@ -1,0 +1,602 @@
+[
+    {
+        "id": 64,
+        "prompt": "How many pairs of two-digit positive integers have a difference of 50?",
+        "answer": "50",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 192,
+        "prompt": "Express $\\frac{\\sin 10+\\sin 20+\\sin 30+\\sin 40+\\sin 50+\\sin 60+\\sin 70+\\sin 80}{\\cos 5 \\cos 10 \\cos 20}$ without using trigonometric functions.",
+        "answer": "8",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 320,
+        "prompt": "Let\n\\[f(x) = \\sqrt{x(50 - x)} + \\sqrt{x(2 - x)}\\]for $0 \\le x \\le 2.$  Let $M$ be the maximum value of $f(x),$ and let $x = x_0$ be the point where the maximum value is attained.  Enter the ordered pair $(x_0,M).$",
+        "answer": "(1,8)",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 448,
+        "prompt": "Given the set $M=\\{a, b, -(a+b)\\}$, where $a\\in \\mathbb{R}$ and $b\\in \\mathbb{R}$, and set $P=\\{1, 0, -1\\}$. If there is a mapping $f:x \\to x$ that maps element $x$ in set $M$ to element $x$ in set $P$ (the image of $x$ under $f$ is still $x$), then the set $S$ formed by the points with coordinates $(a, b)$ has \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ subsets.",
+        "answer": "4",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 576,
+        "prompt": "Given the function $f(x)=x^{3}-x^{2}+1$.  \n$(1)$ Find the equation of the tangent line to the function $f(x)$ at the point $(1,f(1))$;  \n$(2)$ Find the extreme values of the function $f(x)$.",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 640,
+        "prompt": "Seven teams play a soccer tournament in which each team plays every other team exactly once. No ties occur, each team has a $50\\%$ chance of winning each game it plays, and the outcomes of the games are independent. In each game, the winner is awarded a point and the loser gets 0 points. The total points are accumilated to decide the ranks of the teams. In the first game of the tournament, team $A$ beats team $B.$ The probability that team $A$ finishes with more points than team $B$ is $m/n,$ where $m$ and $n$ are relatively prime positive integers. Find $m+n.$\n",
+        "answer": "31",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 704,
+        "prompt": "Victor was driving to the airport in a neighboring city. Half an hour into the drive at a speed of 60 km/h, he realized that if he did not change his speed, he would be 15 minutes late. So he increased his speed, covering the remaining distance at an average speed of 80 km/h, and arrived at the airport 15 minutes earlier than planned initially. What is the distance from Victor's home to the airport?",
+        "answer": "120",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 768,
+        "prompt": "1. In the Cartesian coordinate system, given three points A(5, 4), B(k, 10), and C(12, -2), for what value of k are the vectors $$\\overrightarrow {AB}$$ and $$\\overrightarrow {BC}$$ collinear?\n2. In the Cartesian coordinate system, given O as the origin, $$\\overrightarrow {OA}=(-7, 6)$$, $$\\overrightarrow {OB}=(3, k)$$, $$\\overrightarrow {OC}=(5, 7)$$, for what value of k are the vectors $$\\overrightarrow {AB}$$ and $$\\overrightarrow {BC}$$ perpendicular?",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 832,
+        "prompt": "Let $n$ be the 200th smallest positive real solution to the equation $x-\\frac{\\pi}{2}=\\tan x$. Find the greatest integer that does not exceed $\\frac{n}{2}$.",
+        "answer": "3",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 896,
+        "prompt": "A zookeeper distributes a pile of peaches among several monkeys. If each monkey gets 6 peaches, there are 57 peaches left. If each monkey gets 9 peaches, 5 monkeys get none, and one monkey gets only 3 peaches. How many peaches are there in total?",
+        "answer": "255",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 960,
+        "prompt": "Let the roots of the polynomial $f(x) = x^6 + 2x^3 + 1$ be denoted as $y_1, y_2, y_3, y_4, y_5, y_6$. Let $h(x) = x^3 - 3x$. Find the product $\\prod_{i=1}^6 h(y_i)$.",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 1024,
+        "prompt": "In a bucket, there are $34$ red balls, $25$ green balls, $23$ yellow balls, $18$ blue balls, $14$ white balls, and $10$ black balls. Find the minimum number of balls that must be drawn from the bucket without replacement to guarantee that at least $20$ balls of a single color are drawn.",
+        "answer": "20",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 1216,
+        "prompt": "Let \\( p(x) = x^4 + ax^3 + bx^2 + cx + d \\), where \\( a, b, c, d \\) are constants, and given that \\( p(1) = 1993 \\), \\( p(2) = 3986 \\), and \\( p(3) = 5979 \\). Calculate \\( \\frac{1}{4} [p(11) + p(-7)] \\).",
+        "answer": "1993",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 1280,
+        "prompt": "Calculate \r\n\r\n\\[T = \\sum \\frac{1}{n_1! \\cdot n_2! \\cdot \\cdots n_{1994}! \\cdot (n_2 + 2 \\cdot n_3 + 3 \\cdot n_4 + \\ldots + 1993 \\cdot n_{1994})!}\\]\r\n\r\nwhere the sum is taken over all 1994-tuples of the numbers  $n_1, n_2, \\ldots, n_{1994} \\in \\mathbb{N} \\cup \\{0\\}$  satisfying  $n_1 + 2 \\cdot n_2 + 3 \\cdot n_3 + \\ldots + 1994 \\cdot n_{1994} = 1994.$ ",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 1344,
+        "prompt": "Given the function $f(x)=\\ln x+ax^{2}+(a+2)x+1$, where $a\\in R$.  \n$(I)$ Find the monotonic interval of the function $f(x)$;  \n$(II)$ Let $a\\in Z$. If $f(x)\\leqslant 0$ holds for all $x \\gt 0$, find the maximum value of $a$.",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 1408,
+        "prompt": "Given a function $f(x)$ ($x \\in \\mathbb{R}$) that satisfies $f(-x) = 8 - f(4 + x)$, and a function $g(x) = \\frac{4x + 3}{x - 2}$, determine the value of $(x_1 + y_1) + (x_2 + y_2) + \\ldots + (x_{168} + y_{168})$ where $P_i(x_i, y_i)$ ($i = 1, 2, \\ldots, 168$) are the common points of the graphs of functions $f(x)$ and $g(x)$.",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 1472,
+        "prompt": "In triangle $ABC,$ $D$ lies on $\\overline{BC}$ and $F$ lies on $\\overline{AB}.$  Let $\\overline{AD}$ and $\\overline{CF}$ intersect at $P.$\n\n[asy]\nunitsize(0.8 cm);\n\npair A, B, C, D, F, P;\n\nA = (1,4);\nB = (0,0);\nC = (6,0);\nD = interp(B,C,7/12);\nF = interp(A,B,5/14);\nP = extension(A,D,C,F);\n\ndraw(A--B--C--cycle);\ndraw(A--D);\ndraw(C--F);\n\nlabel(\"$A$\", A, N);\nlabel(\"$B$\", B, SW);\nlabel(\"$C$\", C, SE);\nlabel(\"$D$\", D, S);\nlabel(\"$F$\", F, W);\nlabel(\"$P$\", P, SW);\n[/asy]\n\nIf $AP:PD = 4:3$ and $FP:PC = 1:2,$ find $\\frac{AF}{FB}.$",
+        "answer": "\\frac{5}{7}",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 1536,
+        "prompt": "\nGiven $\\boldsymbol{a} = (\\cos \\alpha, \\sin \\alpha)$ and $\\boldsymbol{b} = (\\cos \\beta, \\sin \\beta)$, the relationship between $\\boldsymbol{a}$ and $\\boldsymbol{b}$ is given by $|k \\boldsymbol{a} + \\boldsymbol{b}| - \\sqrt{3}|\\boldsymbol{a} - k \\boldsymbol{b}|$, where $k > 0$. Find the minimum value of $\\boldsymbol{a} \\cdot \\boldsymbol{b}$.",
+        "answer": "-\\frac{1}{2}",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 1600,
+        "prompt": "The function  $f_n (x)\\ (n=1,2,\\cdots)$  is defined  as follows.\r\n\r\n\\[f_1 (x)=x,\\ f_{n+1}(x)=2x^{n+1}-x^n+\\frac{1}{2}\\int_0^1 f_n(t)\\ dt\\ \\ (n=1,2,\\cdots)\\]\r\n\r\nEvaluate \r\n\r\n\\[\\lim_{n\\to\\infty} f_n \\left(1+\\frac{1}{2n}\\right)\\]",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 1664,
+        "prompt": "Let $p$, $q$, $r$, and $s$ be real numbers with $|p-q|=3$, $|q-r|=5$, and $|r-s|=7$. What is the sum of all possible values of $|p-s|$?",
+        "answer": "18",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 1792,
+        "prompt": "An urn contains marbles of four colors: red, white, blue, and green. When four marbles are drawn without replacement, the following events are equally likely:\n(a) the selection of four red marbles;\n(b) the selection of one white and three red marbles;\n(c) the selection of one white, one blue, and two red marbles; and\n(d) the selection of one marble of each color.\nWhat is the smallest number of marbles satisfying the given condition?",
+        "answer": "4",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 1856,
+        "prompt": "Given the sequence 1, $\\frac{1}{2}$, $\\frac{2}{1}$, $\\frac{1}{3}$, $\\frac{2}{2}$, $\\frac{3}{1}$, $\\frac{1}{4}$, $\\frac{2}{3}$, $\\frac{3}{2}$, $\\frac{4}{1}$, ..., then $\\frac{3}{5}$ is the \\_\\_\\_\\_\\_\\_ term of this sequence.",
+        "answer": "16",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 1984,
+        "prompt": "If \\( p \\) is the smallest positive prime number such that for some integer \\( n \\), \\( p \\) divides \\( n^{2} + 5n + 23 \\), then \\( p = \\)",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 2048,
+        "prompt": "Given the sequence $$1, \\frac{1}{2}, \\frac{2}{1}, \\frac{1}{3}, \\frac{2}{2}, \\frac{3}{1}, \\frac{1}{4}, \\frac{2}{3}, \\frac{3}{2}, \\frac{4}{1}, \\ldots$$, find the position of $$\\frac{8}{9}$$ in this sequence.",
+        "answer": "16",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 2112,
+        "prompt": "A square with integer side length is cut into 10 squares, all of which have integer side length and at least 8 of which have area 1. What is the smallest possible value of the length of the side of the original square?",
+        "answer": "9",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 2176,
+        "prompt": "Let $(x,y)$ satisfy the constraints $\\begin{cases} 8x - y - 4 \\leqslant 0 \\\\ x + y + 1 \\geqslant 0 \\\\ y - 4x \\leqslant 0 \\end{cases}$, and the maximum value of the objective function $z = ax + by (a > 0, b > 0)$ is $2$. Find the minimum value of $\\frac{1}{a} + \\frac{1}{b}$.",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 2368,
+        "prompt": "If the polynomial $x^3+x^{10}=a_0+a_1(x+1)+\\ldots+a_9(x+1)^9+a_{10}(x+1)^{10}$, then $a_2=$ ______.",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 2496,
+        "prompt": "In a football championship with 16 teams, each team played with every other team exactly once. A win was awarded 3 points, a draw 1 point, and a loss 0 points. A team is considered successful if it scored at least half of the maximum possible points. What is the maximum number of successful teams that could have participated in the tournament?",
+        "answer": "8",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 2560,
+        "prompt": "In triangle $\\triangle ABC$, the opposite sides of angles $A$, $B$, and $C$ are $a$, $b$, and $c$ respectively, and $\\sqrt{3}b\\cos A - a\\sin B = 0$. $D$ is the midpoint of $AB$, $AC = 2$, and $CD = 2\\sqrt{3}$. Find:\n\n$(\u2160)$ The measure of angle $A$;\n\n$(\u2161)$ The value of $a$.",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 2624,
+        "prompt": "A set of teams held a round-robin tournament in which every team played every other team exactly once. Every team won $10$ games and lost $10$ games; there were no ties. How many sets of three teams $\\{A, B, C\\}$ were there in which $A$ beat $B$, $B$ beat $C$, and $C$ beat $A$?",
+        "answer": "945",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 2752,
+        "prompt": "Given a circle described by the equation $x^{2}-2x+y^{2}-2y+1=0$, find the cosine value of the angle between the two tangent lines drawn from an external point $P(3,2)$.",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 2816,
+        "prompt": "During a break between voyages, a sailor turned 20 years old. All six crew members gathered in the cabin to celebrate. \"I am twice the age of the cabin boy and 6 years older than the engineer,\" said the helmsman. \"And I am as much older than the cabin boy as I am younger than the engineer,\" noted the boatswain. \"In addition, I am 4 years older than the sailor.\" \"The average age of the crew is 28 years,\" reported the captain. How old is the captain?",
+        "answer": "6",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 2880,
+        "prompt": "In triangle $XYZ$, $XY = 4$, $XZ = 3$, and $YZ = 5$. The medians $XM$, $YN$, and $ZL$ of triangle $XYZ$ intersect at the centroid $G$. Let the projections of $G$ onto $YZ$, $XZ$, and $XY$ be $P$, $Q$, and $R$, respectively. Find $GP + GQ + GR$.",
+        "answer": "3",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 2944,
+        "prompt": "Let sets \\( A \\) and \\( B \\) satisfy:\n\\[ \nA \\cup B = \\{1, 2, \\cdots, 10\\}, \\quad A \\cap B = \\varnothing \n\\]\nIf the number of elements in set \\( A \\) is not an element of \\( A \\) and the number of elements in set \\( B \\) is not an element of \\( B \\), find the total number of different sets \\( A \\) that satisfy the conditions.",
+        "answer": "512",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 3008,
+        "prompt": " $p(n) $  is a product of all digits of n.Calculate: $ p(1001) + p(1002) + ... + p(2011) $ ",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 3072,
+        "prompt": "If one vertex of an ellipse and its two foci form the vertices of an equilateral triangle, then find the eccentricity $e$ of the ellipse.",
+        "answer": "\\frac{\\sqrt{3}}{3}",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 3136,
+        "prompt": "A store normally sells windows at $100 each. This week the store is offering one free window for each purchase of four. Dave needs seven windows and Doug needs eight windows. How many dollars will they save if they purchase the windows together rather than separately?",
+        "answer": "400",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 3200,
+        "prompt": "Calculate the definite integral:\n\n$$\n\\int_{0}^{\\sqrt{2} / 2} \\frac{x^{4} \\cdot d x}{\\sqrt{\\left(1-x^{2}\\right)^{3}}}\n$$",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 3264,
+        "prompt": "Given the function $f(x)=- \\sqrt {3}\\sin ^{2}x+\\sin x\\cos x$.\n(1) Find the value of $f( \\frac {25\u03c0}{6})$.\n(2) Find the smallest positive period of the function $f(x)$ and its maximum and minimum values in the interval $[0, \\frac {\u03c0}{2}]$.",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 3328,
+        "prompt": "A piece of string is cut in two at a point selected at random. The probability that the longer piece is at least x times as large as the shorter piece is",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 3392,
+        "prompt": "A function \\( f \\) is defined on the complex numbers by \\( f(z) = (a + bi)z^2 \\), where \\( a \\) and \\( b \\) are real numbers. The function has the property that for each complex number \\( z \\), \\( f(z) \\) is equidistant from both \\( z \\) and the origin. Given that \\( |a+bi| = 5 \\), find \\( b^2 \\).",
+        "answer": "25",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 3456,
+        "prompt": "Given real numbers $a$ and $b$ satisfying the equation $\\sqrt{(a-1)^2} + \\sqrt{(a-6)^2} = 10 - |b+3| - |b-2|$, find the maximum value of $a^2 + b^2$.",
+        "answer": "41",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 3520,
+        "prompt": "Let \\( f(x) = x^2 + px + q \\) and \\( g(x) = x^2 + rx + s \\) be two distinct quadratic polynomials where the \\( x \\)-coordinate of the vertex of \\( f \\) is a root of \\( g \\), and the \\( x \\)-coordinate of the vertex of \\( g \\) is a root of \\( f \\), also both \\( f \\) and \\( g \\) have the same minimum value. If the graphs of the two quadratic polynomials intersect at the point \\( (50,-200), \\) what is the value of \\( p + r \\)?",
+        "answer": "-100",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 3584,
+        "prompt": "What is the remainder when $9^{2048}$ is divided by $50$?",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 3776,
+        "prompt": "Given quadrilateral $ABCD$ with diagonals $AC$ and $BD$ intersecting at $O$, $BO=4$, $OD=5$, $AO=9$, $OC=2$, and $AB=7$, find the length of $AD$.",
+        "answer": "6",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 3840,
+        "prompt": "How many ways can you mark 8 squares of an $8 \\times 8$ chessboard so that no two marked squares are in the same row or column, and none of the four corner squares is marked? (Rotations and reflections are considered different.)",
+        "answer": "70",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 3904,
+        "prompt": "It is known that\n$$\n\\sqrt{9-8 \\sin 50^{\\circ}}=a+b \\sin c^{\\circ}\n$$\nfor exactly one set of positive integers \\((a, b, c)\\), where \\(0 < c < 90\\). Find the value of \\(\\frac{b+c}{a}\\).",
+        "answer": "8",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 3968,
+        "prompt": "Given the function $f(x)=-\\frac{1}{2}x^{2}+x$ with a domain that contains an interval $[m,n]$, and its range on this interval is $[3m,3n]$. Find the value of $m+n$.",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 4032,
+        "prompt": "In the expression \\((x+y+z)^{2034}+(x-y-z)^{2034}\\), the brackets were expanded, and like terms were combined. How many monomials of the form \\(x^{a} y^{b} z^{c}\\) have a non-zero coefficient?",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 4160,
+        "prompt": "For all positive integers  $n$ , let  $f(n)$  return the smallest positive integer  $k$  for which  $\\tfrac{n}{k}$  is not an integer.  For example,  $f(6) = 4$  because  $1$ ,  $2$ , and  $3$  all divide  $6$  but  $4$  does not.  Determine the largest possible value of  $f(n)$  as  $n$  ranges over the set  $\\{1,2,\\ldots, 3000\\}$ .",
+        "answer": "59",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 4288,
+        "prompt": "If the function $f(x)$ satisfies $f(3x) = f\\left(3x - \\frac{3}{2}\\right)$ for all $x \\in \\mathbb{R}$, then the smallest positive period of $f(x)$ is \\_\\_\\_\\_\\_\\_.",
+        "answer": "\\frac{3}{2}",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 4352,
+        "prompt": "In a magic square, the sum of the three entries in any row, column, or diagonal is the same value. The figure below shows four of the entries of a magic square. Find $x$.\n[asy]\nsize(2cm);\nfor (int i=0; i<=3; ++i) draw((i,0)--(i,3)^^(0,i)--(3,i));\nlabel(\"$x$\",(0.5,2.5));label(\"$19$\",(1.5,2.5));\nlabel(\"$96$\",(2.5,2.5));label(\"$1$\",(0.5,1.5));\n[/asy]",
+        "answer": "13",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 4416,
+        "prompt": "Let \\(a, b, c\\) be arbitrary real numbers such that \\(a > b > c\\) and \\((a - b)(b - c)(c - a) = -16\\). Find the minimum value of \\(\\frac{1}{a - b} + \\frac{1}{b - c} - \\frac{1}{c - a}\\).",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 4480,
+        "prompt": "Fill in the blanks with appropriate numbers to make the equation true: $x^2+5x+\\_\\_=(x+\\_\\_)^2.$",
+        "answer": "\\frac{25}{4}",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 4608,
+        "prompt": "Given natural numbers \\( m \\) and \\( n \\) where \\( n > m > 1 \\), the last three digits of the decimal representation of \\( 1978^m \\) and \\( 1978^n \\) are the same. Find \\( m \\) and \\( n \\) such that \\( m+n \\) is minimized.",
+        "answer": "8",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 4672,
+        "prompt": "Define mutually externally tangent circles  $\\omega_1$ ,  $\\omega_2$ , and  $\\omega_3$ . Let  $\\omega_1$  and  $\\omega_2$  be tangent at  $P$ . The common external tangents of  $\\omega_1$  and  $\\omega_2$  meet at  $Q$ . Let  $O$  be the center of  $\\omega_3$ . If  $QP = 420$  and  $QO = 427$ , find the radius of  $\\omega_3$ .\n\n*Proposed by Tanishq Pauskar and Mahith Gottipati*",
+        "answer": "7",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 4736,
+        "prompt": "Find the minimum value of the maximum of \\( |x^2 - 2xy| \\) over \\( 0 \\leq x \\leq 1 \\) for \\( y \\) in \\( \\mathbb{R} \\).",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 4800,
+        "prompt": "A room is 24 feet long and 14 feet wide. Find the ratio of the length to its perimeter and the ratio of the width to its perimeter. Express each ratio in the form $a:b$.",
+        "answer": "6:19,7:38",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 4864,
+        "prompt": "The function $f(x)=(m^{2}-m-1)x^{m^{2}+m-3}$ is a power function, and when $x\\in (0,+\\infty)$, $f(x)$ is a decreasing function. Find the real number $m=$____.",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 4928,
+        "prompt": "Determine the number of distinct terms in the simplified expansion of $[(x+5y)^3(x-5y)^3]^{3}$.",
+        "answer": "4",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 4992,
+        "prompt": "Given the function $f(x)= \\begin{cases} ax^{2}-2x-1, & x\\geqslant 0\\\\ x^{2}+bx+c, & x < 0\\end{cases}$ is an even function, and the line $y=t$ intersects the graph of $y=f(x)$ from left to right at four distinct points $A$, $B$, $C$, $D$. If $AB=BC$, then the value of the real number $t$ is \\_\\_\\_\\_\\_\\_.",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 5120,
+        "prompt": "Given a square with a side length of $1$, if two points are randomly selected with equal probability from the center and the vertices of the square, what is the probability that the distance between these two points is $\\frac{\\sqrt{2}}{2}$?",
+        "answer": "4",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 5184,
+        "prompt": "For all real numbers $x$ and $y$, define the mathematical operation $\\diamond$ such that $x \\diamond 0 = 2x, x \\diamond y = y \\diamond x$, and $(x + 1) \\diamond y = (x \\diamond y) \\cdot (y + 2)$. What is the value of $6 \\diamond 3$?",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 5248,
+        "prompt": "Given the sequence of even counting numbers starting from $2$, find the sum of the first $3000$ terms and the sequence of odd counting numbers starting from $3$, find the sum of the first $3000$ terms, and then calculate their difference.",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 5312,
+        "prompt": "Given the real numbers \\( x \\) and \\( y \\) satisfy the equation \\( 2x^2 + 3xy + 2y^2 = 1 \\), find the minimum value of \\( x + y + xy \\).",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 5376,
+        "prompt": "A natural number \\( 1 \\leq n \\leq 221 \\) is called lucky if, when dividing 221 by \\( n \\), the remainder is wholly divisible by the incomplete quotient (the remainder can be equal to 0). How many lucky numbers are there?",
+        "answer": "4",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 5440,
+        "prompt": "Given that $\\binom{20}{13} = 77520$, $\\binom{20}{14} = 38760$ and $\\binom{18}{12} = 18564$, find $\\binom{19}{13}$.",
+        "answer": "38760",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 5504,
+        "prompt": "On the board are written 5 integers. By adding them in pairs, the following set of 10 numbers was obtained: $5, 8, 9, 13, 14, 14, 15, 17, 18, 23$. Determine which numbers are written on the board. In the answer, write their product.",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 5568,
+        "prompt": "In acute triangle $\\triangle ABC$, the lengths of the sides opposite to angles $A$, $B$, and $C$ are $a$, $b$, and $c$ respectively. Given vectors $\\overrightarrow{m} = (2, c)$ and $\\overrightarrow{n} = (\\frac{b}{2}\\cos C - \\sin A, \\cos B)$, with $b = \\sqrt{3}$ and $\\overrightarrow{m} \\perp \\overrightarrow{n}$.\n(1) Find angle $B$;\n(2) Find the maximum area of $\\triangle ABC$ and the lengths of the other two sides, $a$ and $c$, when the area is maximum.",
+        "answer": "\\frac{\\pi}{6}",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 5632,
+        "prompt": "In triangle $ABC$, $BC = 4$, $AC = 3 \\sqrt{2}$, and $\\angle C = 45^\\circ$.  Altitudes $AD$, $BE$, and $CF$ intersect at the orthocenter $H$.  Find $AH:HD$.",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 5696,
+        "prompt": "If the fractional equation $\\frac{3}{{x-2}}+1=\\frac{m}{{4-2x}}$ has a root, then the value of $m$ is ______.",
+        "answer": "5",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 5760,
+        "prompt": "Given that a school has 5 top students and 3 teachers, where each teacher mentors no more than 2 students, calculate the number of different mentorship arrangements possible.",
+        "answer": "30",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 5824,
+        "prompt": "A tower is $45 \\mathrm{~m}$ away from the bank of a river. If the width of the river is seen at an angle of $20^{\\circ}$ from a height of $18 \\mathrm{~m}$ in the tower, how wide is the river?",
+        "answer": "16.36",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 5888,
+        "prompt": "Randall proposes a new temperature system called Felsius temperature with the following conversion between Felsius \\(^{\\circ} \\mathrm{E}\\), Celsius \\(^{\\circ} \\mathrm{C}\\), and Fahrenheit \\(^{\\circ} \\mathrm{F}\\): \\(^{\\circ} E=\\frac{7 \\times{ }^{\\circ} \\mathrm{C}}{5}+16=\\frac{7 \\times{ }^{\\circ} \\mathrm{F}-80}{9}\\). For example, \\(0^{\\circ} \\mathrm{C}=16^{\\circ} \\mathrm{E}\\). Let \\(x, y, z\\) be real numbers such that \\(x^{\\circ} \\mathrm{C}=x^{\\circ} \\mathrm{E}, y^{\\circ} E=y^{\\circ} \\mathrm{F}, z^{\\circ} \\mathrm{C}=z^{\\circ} F\\). Find \\(x+y+z\\).",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 5952,
+        "prompt": "Calculate the value of $\\frac12\\cdot\\frac41\\cdot\\frac18\\cdot\\frac{16}{1} \\dotsm \\frac{1}{2048}\\cdot\\frac{4096}{1}$, and multiply the result by $\\frac34$.",
+        "answer": "\\frac{3}{4}",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 6144,
+        "prompt": "There are 36 students in a club. If any 33 of them attend a session, girls will always be in the majority. However, if 31 students attend, it might happen that boys are in the majority. How many girls are in the club?",
+        "answer": "17",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 6208,
+        "prompt": "Given the power function $f(x) = (m^2 - m - 1)x^{m^2 + m - 3}$ on the interval $(0, +\\infty)$, determine the value of $m$ that makes it a decreasing function.",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 6400,
+        "prompt": "If set $A=\\{-4, 2a-1, a^2\\}$, $B=\\{a-5, 1-a, 9\\}$, and $A \\cap B = \\{9\\}$, then the value of $a$ is.",
+        "answer": "3",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 6464,
+        "prompt": "Two quadratic equations with unequal leading coefficients,\n$$\n(a-1) x^{2} - \\left(a^{2}+2\\right) x + \\left(a^{2}+2a\\right) = 0\n$$\nand\n$$\n(b-1) x^{2} - \\left(b^{2}+2\\right) x + \\left(b^{2}+2b\\right) = 0\n$$\n(where \\(a\\) and \\(b\\) are positive integers), have a common root. Find the value of \\(\\frac{a^{b} + b^{a}}{a^{-b} + b^{-a}}\\).",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 6528,
+        "prompt": "Given that the sum of the first $n$ terms of the sequence ${a_n}$ is $S_n$, and the sum of the first $n$ terms of the sequence ${b_n}$ is $T_n$. It is known that $a_1=2$, $3S_n=(n+m)a_n$, ($m\\in R$), and $a_nb_n=\\frac{1}{2}$. If for any $n\\in N^*$, $\\lambda>T_n$ always holds true, then the minimum value of the real number $\\lambda$ is $\\_\\_\\_\\_\\_\\_$.",
+        "answer": "4",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 6592,
+        "prompt": "Given the ellipse $C: \\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}=1(a>b>0)$, its foci are equal to the minor axis length of the ellipse $\u03a9:x^{2}+ \\frac{y^{2}}{4}=1$, and the major axis lengths of C and \u03a9 are equal.\n(1) Find the equation of ellipse C;\n(2) Let $F_1$, $F_2$ be the left and right foci of ellipse C, respectively. A line l that does not pass through $F_1$ intersects ellipse C at two distinct points A and B. If the slopes of lines $AF_1$ and $BF_1$ form an arithmetic sequence, find the maximum area of \u25b3AOB.",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 6656,
+        "prompt": "Four teams play in a tournament in which each team plays exactly one game against each of the other three teams. At the end of each game, either the two teams tie or one team wins and the other team loses. A team is awarded 3 points for a win, 0 points for a loss, and 1 point for a tie. If $S$ is the sum of the points of the four teams after the tournament is complete, which of the following values can $S$ not equal?",
+        "answer": "7",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 6720,
+        "prompt": "Given $a$, $b$, $c$, $d$, $e$ are 5 elements taken from the set $\\{1, 2, 3, 4, 5\\}$ without repetition, calculate the probability that $abc+de$ is an odd number.",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 6848,
+        "prompt": "In $\\triangle ABC$, $\\angle C = 90^{\\circ}$ and $AB = 12$. Squares $ABXY$ and $ACWZ$ are constructed outside of the triangle. The points $X, Y, Z$, and $W$ lie on a circle. What is the perimeter of the triangle?",
+        "answer": "12",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 7040,
+        "prompt": "\nIn a shooting contest, 8 targets are arranged in two columns with 3 targets and one column with 2 targets. The rules are:\n\n- The shooter can freely choose which column to shoot at.\n- He must attempt the lowest target not yet hit.\n\na) If the shooter ignores the second rule, in how many ways can he choose only 3 positions out of the 8 distinct targets to shoot?\n\nb) If the rules are followed, in how many ways can the 8 targets be hit?",
+        "answer": "56",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 7168,
+        "prompt": "How many ways are there to rearrange the letters of CCAMB such that at least one C comes before the A?\n\n*2019 CCA Math Bonanza Individual Round #5*",
+        "answer": "36",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 7232,
+        "prompt": "Given vectors $\\overrightarrow{a}$ and $\\overrightarrow{b}$ that satisfy $|\\overrightarrow{a}|=3$, $|\\overrightarrow{b}|=2\\sqrt{3}$, and $\\overrightarrow{a} \\perp (\\overrightarrow{a}+\\overrightarrow{b})$, find the projection of $\\overrightarrow{b}$ onto $\\overrightarrow{a}$.",
+        "answer": "3",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 7360,
+        "prompt": "Given the radii of the inner and outer circles are $4$ and $8$, respectively, with the inner circle divided into regions with point values 3, 1, 1, and the outer circle divided into regions with point values 2, 3, 3, calculate the probability that the score sum of two darts hitting this board is odd.",
+        "answer": "4",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 7424,
+        "prompt": "\nIn how many ways can a bamboo trunk (a non-uniform natural material) of length 4 meters be cut into three parts, the lengths of which are multiples of 1 decimeter, and from which a triangle can be formed?",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 7488,
+        "prompt": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be a function satisfying $f(x) f(y)=f(x-y)$. Find all possible values of $f(2017)$.",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 7552,
+        "prompt": "A line parallel to side \\( AB \\) of triangle \\( ABC \\) intersects side \\( BC \\) at point \\( M \\) and side \\( AC \\) at point \\( N \\). The area of triangle \\( MCN \\) is twice the area of trapezoid \\( ABMN \\). Find the ratio \\( CM:MB \\).",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 7616,
+        "prompt": "Determine how many ordered pairs of positive integers $(x, y)$ where $x < y$, such that the harmonic mean of $x$ and $y$ is equal to $24^{10}$.",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 7744,
+        "prompt": "Each of the three cutlets needs to be fried on a pan on both sides for five minutes each side. The pan can hold only two cutlets at a time. Is it possible to fry all three cutlets in less than 20 minutes (ignoring the time for flipping and transferring the cutlets)?",
+        "answer": "Yes",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 7808,
+        "prompt": "Given two lines $l_1: y = 2x$, $l_2: y = -2x$, and a line $l$ passing through point $M(-2, 0)$ intersects $l_1$ and $l_2$ at points $A$ and $B$, respectively, where point $A$ is in the third quadrant, point $B$ is in the second quadrant, and point $N(1, 0)$;  \n(1) If the area of $\\triangle NAB$ is 16, find the equation of line $l$;  \n(2) Line $AN$ intersects $l_2$ at point $P$, and line $BN$ intersects $l_1$ at point $Q$. If the slopes of line $l$ and $PQ$ both exist, denoted as $k_1$ and $k_2$ respectively, determine whether $\\frac {k_{1}}{k_{2}}$ is a constant value? If it is a constant value, find this value; if not, explain why.",
+        "answer": "2",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 7872,
+        "prompt": "Given an obtuse triangle \\( \\triangle ABC \\) with the following conditions:\n1. The lengths of \\( AB \\), \\( BC \\), and \\( CA \\) are positive integers.\n2. The lengths of \\( AB \\), \\( BC \\), and \\( CA \\) do not exceed 50.\n3. The lengths of \\( AB \\), \\( BC \\), and \\( CA \\) form an arithmetic sequence with a positive common difference.\n\nDetermine the number of obtuse triangles that satisfy the above conditions, and identify the side lengths of the obtuse triangle with the largest perimeter.",
+        "answer": "0",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 7936,
+        "prompt": "The expression $\\lfloor x\\rfloor$ denotes the greatest integer less than or equal to $x$. Find the value of $$\\left\\lfloor\\frac{2002!}{2001!+2000!+1999!+\\cdots+1!}\\right\\rfloor.$$",
+        "answer": "2002",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 1,
+        "prompt": "Let $R = (8,6)$. The lines whose equations are $8y = 15x$ and $10y = 3x$ contain points $P$ and $Q$, respectively, such that $R$ is the midpoint of $\\overline{PQ}$. The length of $PQ$ equals $\\frac {m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m + n$.\n",
+        "answer": "47",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 129,
+        "prompt": "Given a triangle $ABC$ with sides opposite angles $A$, $B$, $C$ denoted by $a$, $b$, $c$ respectively, and with $b = 3$, $c = 2$, and the area $S_{\\triangle ABC} = \\frac{3\\sqrt{3}}{2}$:\n1. Determine the value of angle $A$;\n2. When angle $A$ is obtuse, find the height from vertex $B$ to side $BC$.",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 193,
+        "prompt": "Let $\\mathcal{F}$ be the set of all the functions $f : \\mathcal{P}(S) \\longrightarrow \\mathbb{R}$ such that for all $X, Y \\subseteq S$, we have $f(X \\cap Y) = \\min (f(X), f(Y))$, where $S$ is a finite set (and $\\mathcal{P}(S)$ is the set of its subsets). Find\n\\[\\max_{f \\in \\mathcal{F}}| \\textrm{Im}(f) |. \\]",
+        "answer": "1",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    },
+    {
+        "id": 257,
+        "prompt": "A box contains seven cards, each with a different integer from 1 to 7 written on it. Avani takes three cards from the box and then Niamh takes two cards, leaving two cards in the box. Avani looks at her cards and then tells Niamh \"I know the sum of the numbers on your cards is even.\" What is the sum of the numbers on Avani's cards?",
+        "answer": "10",
+        "source": "deepscaler_mv_labeled_llama3.2_3b_instruct_incorrect"
+    }
+]
