@@ -2,7 +2,6 @@ fire
 torch==2.5.1
 transformers
 tqdm
-flash_attn==2.7.0.post2
 vllm==0.7.2
 latex2sympy2
 numpy

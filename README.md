@@ -25,7 +25,10 @@ git clone git@github.com:ruixin31/Rethink_RLVR
 cd code
 
 conda create -n rethink-rlvr python=3.10 
+conda activate rethink-rlvr
+
 pip install -r requirements.txt
+pip install flash_attn==2.7.0.post2
 pip install -e .
 ```
 
