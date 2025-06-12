@@ -50,7 +50,7 @@ python -m ttrl.cli.train_ppo_naive \
    --micro_rollout_batch_size 4 \
    --rollout_batch_size 64 \
    --n_samples_per_prompt 16 \
-   --n_votes_per_prompt 64 \
+   --n_votes_per_prompt 16 \
    --extra_eval_task_fast "test,AIME2025-TTT@8,AIME-TTT@8,AMC-TTT@8,AMC-TTT@1,MATH-TTT@1" \
    --extra_eval_task_fast_supress_orig_eval \
    --eval_temperature_at_k 0.6 \
