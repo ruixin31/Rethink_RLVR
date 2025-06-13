@@ -101,8 +101,12 @@ def process(args: argparse.Namespace) -> None:
         # Process prompts based on model type
         if args.is_base_model:
             formatted_prompts = [BASE_MODEL_PROMPT.format(x['prompt']) for x in test_data]
+            stop_string = ["</answer>"]
+            include_stop_str_in_output = True
         else:
             formatted_prompts = [get_chat_prompts(tokenizer, x['prompt']) for x in test_data]
+            stop_string = None
+            include_stop_str_in_output = False
 
         if dataset_info["rollouts"] == 1:
             temperature = args.temperature
@@ -112,6 +116,8 @@ def process(args: argparse.Namespace) -> None:
         sampling_params = SamplingParams(
             temperature=temperature,
             max_tokens=3072,
+            include_stop_str_in_output=include_stop_str_in_output,
+            stop=stop_string,
         )
 
         # Prepare prompts for batch processing
@@ -168,6 +174,8 @@ def process(args: argparse.Namespace) -> None:
             "model": args.model_path,
             "temperature": temperature,
             "rollouts": rollouts,
+            "include_stop_str_in_output": include_stop_str_in_output,
+            "stop_string": stop_string,
             "gpu_type": torch.cuda.get_device_name(),
             "shards": args.shards,
             "metadata": metadata
